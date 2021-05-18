@@ -1,0 +1,6 @@
+.Rproj.user
+.DS_Store
+.Rhistory
+documentation/
+data-raw/hand-coded/source/
+data-raw/codebook/source
