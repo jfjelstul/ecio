@@ -1,0 +1,29 @@
+key_id,member_state_id,member_state,member_state_code,accession_year
+1,1,Belgium,BE,1952
+2,2,France,FR,1952
+3,3,Germany,DE,1952
+4,4,Italy,IT,1952
+5,5,Luxembourg,LU,1952
+6,6,Netherlands,NL,1952
+7,7,Denmark,DK,1973
+8,8,Ireland,IE,1973
+9,9,United Kingdom,UK,1973
+10,10,Greece,EL,1981
+11,11,Portugal,PT,1986
+12,12,Spain,ES,1986
+13,13,Austria,AT,1995
+14,14,Finland,FI,1995
+15,15,Sweden,SE,1995
+16,16,Cyprus,CY,2004
+17,17,Czech Republic,CZ,2004
+18,18,Estonia,EE,2004
+19,19,Hungary,HU,2004
+20,20,Latvia,LV,2004
+21,21,Lithuania,LT,2004
+22,22,Malta,MT,2004
+23,23,Poland,PL,2004
+24,24,Slovakia,SK,2004
+25,25,Slovenia,SI,2004
+26,26,Bulgaria,BG,2007
+27,27,Romania,RO,2007
+28,28,Croatia,HR,2013

@@ -1,0 +1,445 @@
+key_id,scheme_id,scheme,code_id,major_code,major_code_topic,minor_code,minor_code_topic,policy_area
+1,1,Case law directory (old),1,B-01,Principles and citizenship of the Union,B-01.01,The Community and its institutional structure,None
+2,1,Case law directory (old),2,B-01,Principles and citizenship of the Union,B-01.02,Objectives and foundations of the Community,None
+3,1,Case law directory (old),3,B-01,Principles and citizenship of the Union,B-01.03,Obligations of the Member States,None
+4,1,Case law directory (old),4,B-01,Principles and citizenship of the Union,B-01.04,Coordination of economic policies,None
+5,1,Case law directory (old),5,B-01,Principles and citizenship of the Union,B-01.05,Prohibition of discrimination on grounds of nationality,None
+6,1,Case law directory (old),6,B-01,Principles and citizenship of the Union,B-01.06,Transitional period,None
+7,1,Case law directory (old),7,B-01,Principles and citizenship of the Union,B-01.07,Principle of subsidiaritiy,None
+8,1,Case law directory (old),8,B-01,Principles and citizenship of the Union,B-01.08,Citizenship of the Union,None
+9,1,Case law directory (old),9,B-01,Principles and citizenship of the Union,B-01.09,"Action to combat discrimination based on sex, racial or ethnic origin, etc.",None
+10,1,Case law directory (old),10,B-01,Principles and citizenship of the Union,B-01.10,European Union - Closer cooperation,None
+11,1,Case law directory (old),11,B-01,Principles and citizenship of the Union,B-01.11,Services of general economic interest,None
+12,1,Case law directory (old),12,B-02,Free movement of goods,B-02.00,General,Customs union
+13,1,Case law directory (old),13,B-02,Free movement of goods,B-02.01,Prohibition of customs duties and charges having equivalent effect,Customs union
+14,1,Case law directory (old),14,B-02,Free movement of goods,B-02.02,Prohibition of quantitative restrictions and measures having equivalent effect,Customs union
+15,1,Case law directory (old),15,B-02,Free movement of goods,B-02.03,State monopolies of a commercial character,Customs union
+16,1,Case law directory (old),16,B-02,Free movement of goods,B-02.04,Trade with non-member countries,Customs union
+17,1,Case law directory (old),17,B-02,Free movement of goods,B-02.05,Community transit,Customs union
+18,1,Case law directory (old),18,B-03,Agriculture,B-03.00,General,Agriculture
+19,1,Case law directory (old),19,B-03,Agriculture,B-03.01,Objectives of the common agricultural policy,Agriculture
+20,1,Case law directory (old),20,B-03,Agriculture,B-03.02,Formulation and implementation of the common agricultural policy,Agriculture
+21,1,Case law directory (old),21,B-03,Agriculture,B-03.03,Common organization of the markets: principles and mechanisms,Agriculture
+22,1,Case law directory (old),22,B-03,Agriculture,B-03.04,The various common organizations of the agricultural markets,Agriculture
+23,1,Case law directory (old),23,B-03,Agriculture,B-03.05,Monetary measures,Agriculture
+24,1,Case law directory (old),24,B-03,Agriculture,B-03.06,Harmonization of laws,Agriculture
+25,1,Case law directory (old),25,B-03,Agriculture,B-03.07,Structural policy,Agriculture
+26,1,Case law directory (old),26,B-03,Agriculture,B-03.08,European Agricultural Guidance and Guarantee Find (EAGGF),Agriculture
+27,1,Case law directory (old),27,B-03,Agriculture,B-03.09,Food aid,Agriculture
+28,1,Case law directory (old),28,B-04,Free movement of persons and services,B-04.00,General,Social policy
+29,1,Case law directory (old),29,B-04,Free movement of persons and services,B-04.01,Right of entry and of residence,Social policy
+30,1,Case law directory (old),30,B-04,Free movement of persons and services,B-04.02,Workers,Social policy
+31,1,Case law directory (old),31,B-04,Free movement of persons and services,B-04.03,Freedom of establishment,Social policy
+32,1,Case law directory (old),32,B-04,Free movement of persons and services,B-04.04,Freedom to provide services,Social policy
+33,1,Case law directory (old),33,B-04,Free movement of persons and services,B-04.05,Coordination of company law - European Economic Interest Grouping,Social policy
+34,1,Case law directory (old),34,B-04,Free movement of persons and services,B-04.06,Social security for workers,Social policy
+35,1,Case law directory (old),35,B-04,Free movement of persons and services,B-04.00,"Visas, asylum, immigration, etc.",Home affairs
+36,1,Case law directory (old),36,B-04,Free movement of persons and services,B-04.00,Judicial cooperation in civil matters,Justice
+37,1,Case law directory (old),37,B-05,Free movement of capital and freedom of payments,None,None,Economic policy
+38,1,Case law directory (old),38,B-06,Transport,B-06.01,Common transport policy,Transport
+39,1,Case law directory (old),39,B-06,Transport,B-06.02,Aid for transport,Transport
+40,1,Case law directory (old),40,B-06,Transport,B-06.03,Road transport,Transport
+41,1,Case law directory (old),41,B-06,Transport,B-06.04,Maritime transport,Transport
+42,1,Case law directory (old),42,B-06,Transport,B-06.05,Air transport,Transport
+43,1,Case law directory (old),43,B-06,Transport,B-06.06,Competition rules,Transport
+44,1,Case law directory (old),44,B-06,Transport,B-06.07,Inland waterway transport,Transport
+45,1,Case law directory (old),45,B-07,Competition,B-07.00,Community competition rules,Competition
+46,1,Case law directory (old),46,B-07,Competition,B-07.01,"Agreements, decisions and concerted practices",Competition
+47,1,Case law directory (old),47,B-07,Competition,B-07.02,Dominant position,Competition
+48,1,Case law directory (old),48,B-07,Competition,B-07.03,implementation of the competition rules,Competition
+49,1,Case law directory (old),49,B-07,Competition,B-07.04,Public undertakings,Competition
+50,1,Case law directory (old),50,B-07,Competition,B-07.05,Concentrations between undertakings,Competition
+51,1,Case law directory (old),51,B-08,Dumping,None,None,Competition
+52,1,Case law directory (old),52,B-09,State aid,B-09.00,General,Competition
+53,1,Case law directory (old),53,B-09,State aid,B-09.01,Definition of aid,Competition
+54,1,Case law directory (old),54,B-09,State aid,B-09.02,Damage to competition and effect on trade,Competition
+55,1,Case law directory (old),55,B-09,State aid,B-09.03,Exceptions to the prohibition of aid,Competition
+56,1,Case law directory (old),56,B-09,State aid,B-09.04,Procedure for reviewing aid,Competition
+57,1,Case law directory (old),57,B-09,State aid,B-09.05,Powers of the Council,Competition
+58,1,Case law directory (old),58,B-09,State aid,B-09.06,Rules on aid in connection with the common organization of the agricultural markets,Competition
+59,1,Case law directory (old),59,B-10,Tax provisions,B-10.00,General,Taxation
+60,1,Case law directory (old),60,B-10,Tax provisions,B-10.01,Internal taxation,Taxation
+61,1,Case law directory (old),61,B-10,Tax provisions,B-10.02,Harmonization of tax legislation,Taxation
+62,1,Case law directory (old),62,B-11,Approximation of laws and uniform laws,B-11.00,General,Internal market
+63,1,Case law directory (old),63,B-11,Approximation of laws and uniform laws,B-11.01,Directives concerning approximation of law,Internal market
+64,1,Case law directory (old),64,B-11,Approximation of laws and uniform laws,B-11.02,Uniform laws,Internal market
+65,1,Case law directory (old),65,B-11,Approximation of laws and uniform laws,B-11.03,Administrative cooperation,Internal market
+66,1,Case law directory (old),66,B-11,Approximation of laws and uniform laws,B-11.04,Energy,Internal market
+67,1,Case law directory (old),67,B-11,Approximation of laws and uniform laws,B-11.05,Protected names,Internal market
+68,1,Case law directory (old),68,B-11,Approximation of laws and uniform laws,B-11.06,Patents,Internal market
+69,1,Case law directory (old),69,B-11,Approximation of laws and uniform laws,B-11.07,Harmonization of trade mark law,Internal market
+70,1,Case law directory (old),70,B-11,Approximation of laws and uniform laws,B-11.08,Copyright and related rights,Internal market
+71,1,Case law directory (old),71,B-11,Approximation of laws and uniform laws,B-11.09,Protection of new plant varieties,Internal market
+72,1,Case law directory (old),72,B-11,Approximation of laws and uniform laws,B-11.10,Enforcement of intellectual property rights,Internal market
+73,1,Case law directory (old),73,B-11,Approximation of laws and uniform laws,B-11.11,Information and communication technologies,Internal market
+74,1,Case law directory (old),74,B-11,Approximation of laws and uniform laws,B-11.12,Financial services,Internal market
+75,1,Case law directory (old),75,B-11,Approximation of laws and uniform laws,B-11.13,Common corporate tax regime,Internal market
+76,1,Case law directory (old),76,B-11,Approximation of laws and uniform laws,B-11.14,Pharmaceutical and cosmetic products,Internal market
+77,1,Case law directory (old),77,B-11,Approximation of laws and uniform laws,B-11.15,Chemicals,Internal market
+78,1,Case law directory (old),78,B-11,Approximation of laws and uniform laws,B-11.16,Technical standards and regulations,Internal market
+79,1,Case law directory (old),79,B-11,Approximation of laws and uniform laws,B-11.17,Misleading and comparative advertising,Internal market
+80,1,Case law directory (old),80,B-11,Approximation of laws and uniform laws,B-11.18,Food safety,Internal market
+81,1,Case law directory (old),81,B-11,Approximation of laws and uniform laws,B-11.19,Motor vehicle liability insurance,Internal market
+82,1,Case law directory (old),82,B-12,Conjunctural policy and balance of payments,B-12.01,Conjunctural policy,Economic policy
+83,1,Case law directory (old),83,B-12,Conjunctural policy and balance of payments,B-12.02,Balance of payments,Economic policy
+84,1,Case law directory (old),84,B-13,Economic and monetary policy,B-13.01,Economic policy,Economic policy
+85,1,Case law directory (old),85,B-13,Economic and monetary policy,B-13.02,Monetary policy,Economic policy
+86,1,Case law directory (old),86,B-13,Economic and monetary policy,B-13.03,Euro,Economic policy
+87,1,Case law directory (old),87,B-13,Economic and monetary policy,B-13.04,European System of Central Banks,Economic policy
+88,1,Case law directory (old),88,B-14,Commercial policy,B-14.00,General,Trade
+89,1,Case law directory (old),89,B-14,Commercial policy,B-14.01,Community regulation of trade with non-member countries,Trade
+90,1,Case law directory (old),90,B-14,Commercial policy,B-14.02,International agreements concerning commercial policy and joint action within the framework of international organizations,Trade
+91,1,Case law directory (old),91,B-14,Commercial policy,B-14.03,National protective measures,Trade
+92,1,Case law directory (old),92,B-15,Social policy,B-15.00,General,Social policy
+93,1,Case law directory (old),93,B-15,Social policy,B-15.01,Equality for men and women,Social policy
+94,1,Case law directory (old),94,B-15,Social policy,B-15.02,Employment protection and protection of employees in the event fo the insolvency of their employer,Social policy
+95,1,Case law directory (old),95,B-15,Social policy,B-15.03,European Social Fund,Social policy
+96,1,Case law directory (old),96,B-15,Social policy,B-15.04,Vocation training,Social policy
+97,1,Case law directory (old),97,B-15,Social policy,B-15.05,Protection of the health and safety of workers,Social policy
+98,1,Case law directory (old),98,B-15,Social policy,B-15.06,Information and consultation of employees,Social policy
+99,1,Case law directory (old),99,B-16,European Investment Bank,None,None,Economic policy
+100,1,Case law directory (old),100,B-17,Association of Overseas Countries and Territories,None,None,External relations
+101,1,Case law directory (old),101,B-18,Institutions and bodies of the Community,B-18.00,General,None
+102,1,Case law directory (old),102,B-18,Institutions and bodies of the Community,B-18.01,Parliament,None
+103,1,Case law directory (old),103,B-18,Institutions and bodies of the Community,B-18.02,Council,None
+104,1,Case law directory (old),104,B-18,Institutions and bodies of the Community,B-18.03,Commission,None
+105,1,Case law directory (old),105,B-18,Institutions and bodies of the Community,B-18.04,Court of Justice,None
+106,1,Case law directory (old),106,B-18,Institutions and bodies of the Community,B-18.05,Economic and Social Committee,None
+107,1,Case law directory (old),107,B-18,Institutions and bodies of the Community,B-18.06,Court of Auditors,None
+108,1,Case law directory (old),108,B-18,Institutions and bodies of the Community,B-18.07,European Committee of the Regions,None
+109,1,Case law directory (old),109,B-18,Institutions and bodies of the Community,B-18.08,European ombudsman,None
+110,1,Case law directory (old),110,B-18,Institutions and bodies of the Community,B-18.09,OLAF,None
+111,1,Case law directory (old),111,B-18,Institutions and bodies of the Community,B-18.10,"Agencies, offices and foundations",None
+112,1,Case law directory (old),112,B-18,Institutions and bodies of the Community,B-18.11,European Central Bank,None
+113,1,Case law directory (old),113,B-19,Legal proceedings,B-19.00,General,None
+114,1,Case law directory (old),114,B-19,Legal proceedings,B-19.01,Actions for failure to fulfill obligations,None
+115,1,Case law directory (old),115,B-19,Legal proceedings,B-19.02,Actions for annulment,None
+116,1,Case law directory (old),116,B-19,Legal proceedings,B-19.03,Actions for failure to act,None
+117,1,Case law directory (old),117,B-19,Legal proceedings,B-19.04,Reference for a preliminary ruling,None
+118,1,Case law directory (old),118,B-19,Legal proceedings,B-19.05,Actions for damages,None
+119,1,Case law directory (old),119,B-19,Legal proceedings,B-19.06,Plea of illegality,None
+120,1,Case law directory (old),120,B-19,Legal proceedings,B-19.07,Ancillary procedures and applications,None
+121,1,Case law directory (old),121,B-19,Legal proceedings,B-19.08,Procedural rules,None
+122,1,Case law directory (old),122,B-19,Legal proceedings,B-19.09,Proceedings relating to a contract,None
+123,1,Case law directory (old),123,B-19,Legal proceedings,B-19.10,Appeals,None
+124,1,Case law directory (old),124,B-19,Legal proceedings,B-19.11,Allocation of jurisdiction among the various Community courts,None
+125,1,Case law directory (old),125,B-19,Legal proceedings,B-19.12,Review,None
+126,1,Case law directory (old),126,B-20,Actions of the institutions,B-20.00,General,None
+127,1,Case law directory (old),127,B-20,Actions of the institutions,B-20.01,Regulations,None
+128,1,Case law directory (old),128,B-20,Actions of the institutions,B-20.02,Directives,None
+129,1,Case law directory (old),129,B-20,Actions of the institutions,B-20.03,Decisions,None
+130,1,Case law directory (old),130,B-20,Actions of the institutions,B-20.04,Actions without binding force,None
+131,1,Case law directory (old),131,B-20,Actions of the institutions,B-20.05,Statement of reasons,None
+132,1,Case law directory (old),132,B-20,Actions of the institutions,B-20.06,Application ratione temporis,None
+133,1,Case law directory (old),133,B-21,Environment,None,None,Environment
+134,1,Case law directory (old),134,B-22,Financial provisions,B-22.00,General,Budget
+135,1,Case law directory (old),135,B-22,Financial provisions,B-22.01,Budgetary rules,Budget
+136,1,Case law directory (old),136,B-22,Financial provisions,B-22.02,Own resources of the Communities,Budget
+137,1,Case law directory (old),137,B-22,Financial provisions,B-22.03,Structural funds,Budget
+138,1,Case law directory (old),138,B-23,Accession of new Member States,B-23.01,General principles,Enlargement
+139,1,Case law directory (old),139,B-23,Accession of new Member States,B-23.02,Acts of accession,Enlargement
+140,1,Case law directory (old),140,B-24,Protective measures,None,None,None
+141,1,Case law directory (old),141,B-25,International agreements,B-25.00,General,External relations
+142,1,Case law directory (old),142,B-25,International agreements,B-25.01,Respective powers of the Community and of the Member States,External relations
+143,1,Case law directory (old),143,B-25,International agreements,B-25.02,Negotiations and conclusion,External relations
+144,1,Case law directory (old),144,B-25,International agreements,B-25.03,Prior opinion of the Court,External relations
+145,1,Case law directory (old),145,B-25,International agreements,B-25.04,"Effects, scope and limits",External relations
+146,1,Case law directory (old),146,B-25,International agreements,B-25.05,The various agreements concluded by the Community,External relations
+147,1,Case law directory (old),147,B-25,International agreements,B-25.06,Observance of prior international agreements concluded by Member States,External relations
+148,1,Case law directory (old),148,B-25,International agreements,B-25.07,GATT and WTO,External relations
+149,1,Case law directory (old),149,B-26,Implied powers,None,None,None
+150,1,Case law directory (old),150,B-27,Amendment of the Treaty,None,None,None
+151,1,Case law directory (old),151,B-28,General and final provisions,B-28.00,General,None
+152,1,Case law directory (old),152,B-28,General and final provisions,B-28.01,Territorial scope of the Treaty,None
+153,1,Case law directory (old),153,B-28,General and final provisions,B-28.02,Internal German trade,None
+154,1,Case law directory (old),154,B-28,General and final provisions,B-28.03,Privileges and immunities,None
+155,1,Case law directory (old),155,B-28,General and final provisions,B-28.04,Observance of professional secrecy,None
+156,1,Case law directory (old),156,B-28,General and final provisions,B-28.05,Language arrangements,None
+157,1,Case law directory (old),157,B-28,General and final provisions,B-28.06,Competition of the Community under Article 235 EEC or Article 308 EC,None
+158,1,Case law directory (old),158,B-29,Trans-European networks,None,None,Information technology
+159,1,Case law directory (old),159,B-30,Development cooperation,None,None,Development
+160,1,Case law directory (old),160,B-31,Culture,None,None,Culture
+161,1,Case law directory (old),161,B-32,Industry,None,None,Industrial policy
+162,1,Case law directory (old),162,B-33,Community trade mark,B-33.00,General,Industrial policy
+163,1,Case law directory (old),163,B-33,Community trade mark,B-33.01,Absolute grounds for refusal,Industrial policy
+164,1,Case law directory (old),164,B-33,Community trade mark,B-33.02,Relative grounds for refusal,Industrial policy
+165,1,Case law directory (old),165,B-33,Community trade mark,B-33.03,Other questions and substantive law,Industrial policy
+166,1,Case law directory (old),166,B-33,Community trade mark,B-33.04,Procedure and legal proceedings,Industrial policy
+167,1,Case law directory (old),167,B-34,Employment,None,None,Social policy
+168,1,Case law directory (old),168,B-35,Public health,None,None,Health
+169,1,Case law directory (old),169,B-36,Consumer protection,B-36.00,General,Consumer protection
+170,1,Case law directory (old),170,B-36,Consumer protection,B-36.01,Concept of consumer,Consumer protection
+171,1,Case law directory (old),171,B-36,Consumer protection,B-36.02,Off-premises contracts,Consumer protection
+172,1,Case law directory (old),172,B-36,Consumer protection,B-36.03,Distance contracts,Consumer protection
+173,1,Case law directory (old),173,B-36,Consumer protection,B-36.04,Unfair terms,Consumer protection
+174,1,Case law directory (old),174,B-36,Consumer protection,B-36.05,Unfair commericial practices,Consumer protection
+175,1,Case law directory (old),175,B-36,Consumer protection,B-36.06,Consumer credit,Consumer protection
+176,1,Case law directory (old),176,B-36,Consumer protection,B-36.07,Sale of consumer goods and associated gurantees,Consumer protection
+177,1,Case law directory (old),177,B-36,Consumer protection,B-36.08,"Package travel, package holidays and package tours",Consumer protection
+178,1,Case law directory (old),178,B-36,Consumer protection,B-36.09,Air passenger rights,Consumer protection
+179,1,Case law directory (old),179,B-36,Consumer protection,B-36.10,Liability for defective products,Consumer protection
+180,1,Case law directory (old),180,B-37,Research and technological development,None,None,Research
+181,1,Case law directory (old),181,B-38,Community designs,None,None,Industrial policy
+182,1,Case law directory (old),182,G-00,General,None,None,None
+183,1,Case law directory (old),183,G-01,European Union - Common provisions,None,None,None
+184,1,Case law directory (old),184,G-02,Common foreign and security policy (CFSP),G-02.00,General,Defense
+185,1,Case law directory (old),185,G-02,Common foreign and security policy (CFSP),G-02.01,Restrictive measures - Freezing of funds and various prohibitions,Defense
+186,1,Case law directory (old),186,G-03,European Union - Policy and judicial cooperation in criminal matters,G-03.00,General,Justice
+187,1,Case law directory (old),187,G-03,European Union - Policy and judicial cooperation in criminal matters,G-03.01,Jurisdiction of the Court of Justice,Justice
+188,1,Case law directory (old),188,G-03,European Union - Policy and judicial cooperation in criminal matters,G-03.02,Convention implementing the Schengen Agreement,Justice
+189,1,Case law directory (old),189,G-03,European Union - Policy and judicial cooperation in criminal matters,G-03.03,European arrest warrant,Justice
+190,1,Case law directory (old),190,G-03,European Union - Policy and judicial cooperation in criminal matters,G-03.04,Standing of victims,Justice
+191,1,Case law directory (old),191,G-04,European Union - closer cooperation,None,None,None
+192,2,Case law directory (new),1,4.01,Internal market - General,None,None,Internal market
+193,2,Case law directory (new),2,4.02,Free movement of goods,4.02.00,General,Customs union
+194,2,Case law directory (new),3,4.02,Free movement of goods,4.02.01,Prohibition of customs duties and charges having equivalent effect,Customs union
+195,2,Case law directory (new),4,4.02,Free movement of goods,4.02.02,Prohibition of quantitative restrictions and measures having equivalent effect,Customs union
+196,2,Case law directory (new),5,4.02,Free movement of goods,4.02.03,State monopolies of a commercial character,Customs union
+197,2,Case law directory (new),6,4.02,Free movement of goods,4.02.04,Customs union,Customs union
+198,2,Case law directory (new),7,4.02,Free movement of goods,4.02.05,Community transit,Customs union
+199,2,Case law directory (new),8,4.02,Free movement of goods,4.02.06,Customs cooperation,Customs union
+200,2,Case law directory (new),9,4.03,Agriculture and fisheries,4.03.00,General,Multiple
+201,2,Case law directory (new),10,4.03,Agriculture and fisheries,4.03.01,Objectives of the common agricultural policy,Agriculture
+202,2,Case law directory (new),11,4.03,Agriculture and fisheries,4.03.02,Formulation and implementation of the common agricultural policy,Agriculture
+203,2,Case law directory (new),12,4.03,Agriculture and fisheries,4.03.03,Common organization of the markets,Agriculture
+204,2,Case law directory (new),13,4.03,Agriculture and fisheries,4.03.04,Harmonization of laws,Agriculture
+205,2,Case law directory (new),14,4.03,Agriculture and fisheries,4.03.05,Structural policy,Agriculture
+206,2,Case law directory (new),15,4.03,Agriculture and fisheries,4.03.06,Financing,Agriculture
+207,2,Case law directory (new),16,4.03,Agriculture and fisheries,4.03.07,Fisheries,Fisheries
+208,2,Case law directory (new),17,4.04,Free movement of persons and services,4.04.00,General,Social policy
+209,2,Case law directory (new),18,4.04,Free movement of persons and services,4.04.01,Workers,Social policy
+210,2,Case law directory (new),19,4.04,Free movement of persons and services,4.04.02,Freedom of establishment,Social policy
+211,2,Case law directory (new),20,4.04,Free movement of persons and services,4.04.03,Freedom to provide services,Social policy
+212,2,Case law directory (new),21,4.04,Free movement of persons and services,4.04.04,Company law,Social policy
+213,2,Case law directory (new),22,4.04,Free movement of persons and services,4.04.05,Social security,Social policy
+214,2,Case law directory (new),23,4.05,Free movement of capital and freedom of payments,None,None,Economic policy
+215,2,Case law directory (new),24,4.06,"Area of freedom, security and justice",4.06.00,General,Justice
+216,2,Case law directory (new),25,4.06,"Area of freedom, security and justice",4.06.01,"Border checks, asylum and immigration",Home affairs
+217,2,Case law directory (new),26,4.06,"Area of freedom, security and justice",4.06.02,Judicial cooperation in civil matters,Justice
+218,2,Case law directory (new),27,4.06,"Area of freedom, security and justice",4.06.03,Judicial cooperation in criminal matters,Justice
+219,2,Case law directory (new),28,4.06,"Area of freedom, security and justice",4.06.04,Police cooperation,Justice
+220,2,Case law directory (new),29,4.07,Transport,4.07.01,Common transport policy,Transport
+221,2,Case law directory (new),30,4.07,Transport,4.07.02,Aid for transport,Transport
+222,2,Case law directory (new),31,4.07,Transport,4.07.03,Road transport,Transport
+223,2,Case law directory (new),32,4.07,Transport,4.07.04,Maritime transport,Transport
+224,2,Case law directory (new),33,4.07,Transport,4.07.05,Air transport,Transport
+225,2,Case law directory (new),34,4.07,Transport,4.07.06,Competition rules,Transport
+226,2,Case law directory (new),35,4.07,Transport,4.07.07,Inland waterway transport,Transport
+227,2,Case law directory (new),36,4.07,Transport,4.07.08,Rail transport,Transport
+228,2,Case law directory (new),37,4.08,Competition,4.08.00,EU competition rules,Competition
+229,2,Case law directory (new),38,4.08,Competition,4.08.01,"Agreements, decisions and concerted practices",Competition
+230,2,Case law directory (new),39,4.08,Competition,4.08.02,Dominant position,Competition
+231,2,Case law directory (new),40,4.08,Competition,4.08.03,implementation of the competition rules,Competition
+232,2,Case law directory (new),41,4.08,Competition,4.08.04,Public undertakings,Competition
+233,2,Case law directory (new),42,4.08,Competition,4.08.05,Concentrations,Competition
+234,2,Case law directory (new),43,4.09,State aid,4.09.00,General,Competition
+235,2,Case law directory (new),44,4.09,State aid,4.09.01,Definition of aid,Competition
+236,2,Case law directory (new),45,4.09,State aid,4.09.02,Damage to competition and effect on trade,Competition
+237,2,Case law directory (new),46,4.09,State aid,4.09.03,Exceptions to the prohibition of aid,Competition
+238,2,Case law directory (new),47,4.09,State aid,4.09.04,Procedure for reviewing aid,Competition
+239,2,Case law directory (new),48,4.09,State aid,4.09.05,Powers of the Council,Competition
+240,2,Case law directory (new),49,4.09,State aid,4.09.06,Rules on aid in connection with the common organization of the agricultural markets,Competition
+241,2,Case law directory (new),50,4.10,Tax provisions,4.10.00,General,Taxation
+242,2,Case law directory (new),51,4.10,Tax provisions,4.10.01,Internal taxation,Taxation
+243,2,Case law directory (new),52,4.10,Tax provisions,4.10.02,Harmonization of tax legislation,Taxation
+244,2,Case law directory (new),53,4.11,Approximation of laws,4.11.00,General,Internal market
+245,2,Case law directory (new),54,4.11,Approximation of laws,4.11.01,Directives concerning approximation of law,Internal market
+246,2,Case law directory (new),55,4.11,Approximation of laws,4.11.02,Uniform laws,Internal market
+247,2,Case law directory (new),56,4.11,Approximation of laws,4.11.03,European Union trade mark,Internal market
+248,2,Case law directory (new),57,4.11,Approximation of laws,4.11.04,Community designs,Internal market
+249,2,Case law directory (new),58,4.11,Approximation of laws,4.11.05,Public procurement,Internal market
+250,2,Case law directory (new),59,4.11,Approximation of laws,4.11.06,Chemicals (REACH),Internal market
+251,2,Case law directory (new),60,4.11,Approximation of laws,4.11.07,Telecommunications,Internal market
+252,2,Case law directory (new),61,4.11,Approximation of laws,4.11.08,Other uniform intellectual property rights,Internal market
+253,2,Case law directory (new),62,4.11,Approximation of laws,4.11.09,Harmonized intellectual property rights,Internal market
+254,2,Case law directory (new),63,4.11,Approximation of laws,4.11.10,Enforcement of intellectual property rights,Internal market
+255,2,Case law directory (new),64,4.11,Approximation of laws,4.11.11,Information and communication technologies,Internal market
+256,2,Case law directory (new),65,4.11,Approximation of laws,4.11.12,Financial services,Internal market
+257,2,Case law directory (new),66,4.11,Approximation of laws,4.11.13,Common corporate tax regime,Internal market
+258,2,Case law directory (new),67,4.11,Approximation of laws,4.11.14,Pharmaceutical and cosmetic products,Internal market
+259,2,Case law directory (new),68,4.11,Approximation of laws,4.11.15,Chemicals,Internal market
+260,2,Case law directory (new),69,4.11,Approximation of laws,4.11.16,Technical standards and regulations,Internal market
+261,2,Case law directory (new),70,4.11,Approximation of laws,4.11.17,Misleading and comparative advertising,Internal market
+262,2,Case law directory (new),71,4.11,Approximation of laws,4.11.18,Food safety,Internal market
+263,2,Case law directory (new),72,4.11,Approximation of laws,4.11.19,Motor vehicle liability insurance,Internal market
+264,2,Case law directory (new),73,4.12,Economic and monetary policy,4.12.01,Economic policy,Economic policy
+265,2,Case law directory (new),74,4.12,Economic and monetary policy,4.12.02,Monetary policy,Economic policy
+266,2,Case law directory (new),75,4.12,Economic and monetary policy,4.12.03,Euro,Economic policy
+267,2,Case law directory (new),76,4.12,Economic and monetary policy,4.12.04,European System of Central Banks,Economic policy
+268,2,Case law directory (new),77,4.13,Employment,None,None,Social policy
+269,2,Case law directory (new),78,4.14,Social policy,4.14.00,General,Social policy
+270,2,Case law directory (new),79,4.14,Social policy,4.14.01,Equality and non-discrimination,Social policy
+271,2,Case law directory (new),80,4.14,Social policy,4.14.02,Employment protection and protection of employees in the event fo the insolvency of their employer,Social policy
+272,2,Case law directory (new),81,4.14,Social policy,4.14.03,European Social Fund,Social policy
+273,2,Case law directory (new),82,4.14,Social policy,4.14.04,Vocation training,Social policy
+274,2,Case law directory (new),83,4.14,Social policy,4.14.05,Protection of the health and safety of workers,Social policy
+275,2,Case law directory (new),84,4.14,Social policy,4.14.06,Information and consultation of employees,Social policy
+276,2,Case law directory (new),85,4.14,Social policy,4.14.07,Fixed-term work,Social policy
+277,2,Case law directory (new),86,4.14,Social policy,4.14.08,part-time work,Social policy
+278,2,Case law directory (new),87,4.15,"Education, vocational training, youth and sport",None,None,Education
+279,2,Case law directory (new),88,4.16,Culture,None,None,Culture
+280,2,Case law directory (new),89,4.17,Public health,None,None,Health
+281,2,Case law directory (new),90,4.18,Consumer protection,4.18.00,General,Consumer protection
+282,2,Case law directory (new),91,4.18,Consumer protection,4.18.01,Concept of consumer,Consumer protection
+283,2,Case law directory (new),92,4.18,Consumer protection,4.18.02,Consumer rights - general framework,Consumer protection
+284,2,Case law directory (new),93,4.18,Consumer protection,4.18.03,Indication of prices,Consumer protection
+285,2,Case law directory (new),94,4.18,Consumer protection,4.18.04,Unfair terms,Consumer protection
+286,2,Case law directory (new),95,4.18,Consumer protection,4.18.05,Unfair commercial practices,Consumer protection
+287,2,Case law directory (new),96,4.18,Consumer protection,4.18.06,Consumer credit,Consumer protection
+288,2,Case law directory (new),97,4.18,Consumer protection,4.18.07,Sale of consumer goods and associated guarantees,Consumer protection
+289,2,Case law directory (new),98,4.18,Consumer protection,4.18.08,"Package travel, package holidays and package tours",Consumer protection
+290,2,Case law directory (new),99,4.18,Consumer protection,4.18.09,Air passenger rights,Consumer protection
+291,2,Case law directory (new),100,4.18,Consumer protection,4.18.10,Liability for defective products,Consumer protection
+292,2,Case law directory (new),101,4.19,Trans-European networks,None,None,Information technology
+293,2,Case law directory (new),102,4.20,Industry,None,None,Industrial policy
+294,2,Case law directory (new),103,4.21,"Economic, social and territorial cohesion",None,None,Regional policy
+295,2,Case law directory (new),104,4.22,Research and technological development and space,None,None,Research
+296,2,Case law directory (new),105,4.23,"Environment, sustainable development and climate",None,None,Environment
+297,2,Case law directory (new),106,4.24,Energy,None,None,Energy
+298,2,Case law directory (new),107,4.25,Tourism,None,None,None
+299,2,Case law directory (new),108,4.26,Civil protection,None,None,Humanitarian aid
+300,2,Case law directory (new),109,4.27,Administrative cooperation,None,None,None
+301,2,Case law directory (new),110,6.00,General,None,None,None
+302,2,Case law directory (new),111,6.01,Common foreign and security policy (CFSP),6.01.00,General,Defense
+303,2,Case law directory (new),112,6.01,Common foreign and security policy (CFSP),6.01.01,Restrictive measures - Freezing of funds and various prohibitions,Defense
+304,2,Case law directory (new),113,6.02,Commercial policy,6.02.00,General,Trade
+305,2,Case law directory (new),114,6.02,Commercial policy,6.02.01,Rules on trade with third countries,Trade
+306,2,Case law directory (new),115,6.02,Commercial policy,6.02.02,International agreements concerning commercial policy and joint action within the framework of international organizations,Trade
+307,2,Case law directory (new),116,6.02,Commercial policy,6.02.03,National protective measures,Trade
+308,2,Case law directory (new),117,6.03,Development cooperation,None,None,Development
+309,2,Case law directory (new),118,6.04,"Economic, financial and technical cooperation with third countries",None,None,External relations
+310,2,Case law directory (new),119,6.05,Humanitarian aid,None,None,Humanitarian aid
+311,2,Case law directory (new),120,6.06,Restrictive measures,None,None,None
+312,2,Case law directory (new),121,6.07,International agreements,6.07.00,General,External relations
+313,2,Case law directory (new),122,6.07,International agreements,6.07.01,Respective competences of the European Union and of the Member States,External relations
+314,2,Case law directory (new),123,6.07,International agreements,6.07.02,Negotiation and conclusion,External relations
+315,2,Case law directory (new),124,6.07,International agreements,6.07.03,Prior opinion of the Court,External relations
+316,2,Case law directory (new),125,6.07,International agreements,6.07.04,"Effects, scope and limits",External relations
+317,2,Case law directory (new),126,6.07,International agreements,6.07.05,Observance of prior international agreements concluded by Member States,External relations
+318,2,Case law directory (new),127,6.07,International agreements,6.07.06,The UN,External relations
+319,2,Case law directory (new),128,6.07,International agreements,6.07.07,GATT and WTO,External relations
+320,2,Case law directory (new),129,6.07,International agreements,6.07.08,International agreements on the environment,External relations
+321,2,Case law directory (new),130,6.07,International agreements,6.07.09,International agreements on energy,External relations
+322,2,Case law directory (new),131,6.07,International agreements,6.07.10,International agreements on private international law,External relations
+323,2,Case law directory (new),132,6.07,International agreements,6.07.11,International agreements on agriculture and fisheries,External relations
+324,2,Case law directory (new),133,6.07,International agreements,6.07.12,International agreements on transport,External relations
+325,2,Case law directory (new),134,6.07,International agreements,6.07.13,International agreements on criminal law,External relations
+326,2,Case law directory (new),135,6.07,International agreements,6.07.14,Agreements on development cooperation,External relations
+327,2,Case law directory (new),136,6.07,International agreements,6.07.15,"Free trade, association, stabilization etc. agreements",External relations
+328,2,Case law directory (new),137,6.08,Diplomatic relations,None,None,External relations
+329,2,Case law directory (new),138,6.09,Solidarity clause,None,None,None
+330,3,Directory of legal acts,1,01,"General, financial and institutional matters",01.07,Statistics,None
+331,3,Directory of legal acts,2,01,"General, financial and institutional matters",01.10,"Principles, objectives and tasks of the Treaties",None
+332,3,Directory of legal acts,3,01,"General, financial and institutional matters",01.20,General provisions,None
+333,3,Directory of legal acts,4,01,"General, financial and institutional matters",01.30,Scope of the Treaties,None
+334,3,Directory of legal acts,5,01,"General, financial and institutional matters",01.40,Provisions governing the institutions,None
+335,3,Directory of legal acts,6,01,"General, financial and institutional matters",01.50,Administration and Staff Regulations,None
+336,3,Directory of legal acts,7,01,"General, financial and institutional matters",01.60,Financial and budgetary provisions,Budget
+337,3,Directory of legal acts,8,02,Customs Union and free movement of goods,02.05,General,Customs union
+338,3,Directory of legal acts,9,02,Customs Union and free movement of goods,02.07,Statistics,Customs union
+339,3,Directory of legal acts,10,02,Customs Union and free movement of goods,02.10,General customs rules,Customs union
+340,3,Directory of legal acts,11,02,Customs Union and free movement of goods,02.20,Basic customs instruments,Customs union
+341,3,Directory of legal acts,12,02,Customs Union and free movement of goods,02.30,Application of the Common Customs Tariff,Customs union
+342,3,Directory of legal acts,13,02,Customs Union and free movement of goods,02.40,Specific customs rules,Customs union
+343,3,Directory of legal acts,14,02,Customs Union and free movement of goods,02.50,Mutual assistance,Customs union
+344,3,Directory of legal acts,15,02,Customs Union and free movement of goods,02.60,Proceedings and penalties,Customs union
+345,3,Directory of legal acts,16,02,Customs Union and free movement of goods,02.70,International customs cooperation,Customs union
+346,3,Directory of legal acts,17,03,Agriculture,03.05,General,Agriculture
+347,3,Directory of legal acts,18,03,Agriculture,03.07,Statistics,Agriculture
+348,3,Directory of legal acts,19,03,Agriculture,03.10,Basic provisions,Agriculture
+349,3,Directory of legal acts,20,03,Agriculture,03.20,Agricultural structural funds,Agriculture
+350,3,Directory of legal acts,21,03,Agriculture,03.30,Agricultural structures,Agriculture
+351,3,Directory of legal acts,22,03,Agriculture,03.40,Monetary measures,Agriculture
+352,3,Directory of legal acts,23,03,Agriculture,03.50,Approximation of laws and health measures,Agriculture
+353,3,Directory of legal acts,24,03,Agriculture,03.60,Products subject to market organization,Agriculture
+354,3,Directory of legal acts,25,03,Agriculture,03.70,Products not subject to market organization,Agriculture
+355,3,Directory of legal acts,26,03,Agriculture,03.80,Agreements with non-member countries,Agriculture
+356,3,Directory of legal acts,27,04,Fisheries,04.05,"General, supply and research",Fisheries
+357,3,Directory of legal acts,28,04,Fisheries,04.07,Statistics,Fisheries
+358,3,Directory of legal acts,29,04,Fisheries,04.10,Common fisheries policy,Fisheries
+359,3,Directory of legal acts,30,04,Fisheries,04.20,External relations,Fisheries
+360,3,Directory of legal acts,31,05,Freedom of movement for workers and social policy,05.07,Statistics,Social policy
+361,3,Directory of legal acts,32,05,Freedom of movement for workers and social policy,05.10,Freedom of movement for workers,Social policy
+362,3,Directory of legal acts,33,05,Freedom of movement for workers and social policy,05.20,Social policy,Social policy
+363,3,Directory of legal acts,34,06,Right of establishment and freedom to provide services,06.07,Statistics,Social policy
+364,3,Directory of legal acts,35,06,Right of establishment and freedom to provide services,06.10,Principles and conditions,Social policy
+365,3,Directory of legal acts,36,06,Right of establishment and freedom to provide services,06.20,Sectoral application,Social policy
+366,3,Directory of legal acts,37,06,Right of establishment and freedom to provide services,06.30,Public contracts,Social policy
+367,3,Directory of legal acts,38,07,Transport policy,07.05,General,Transport
+368,3,Directory of legal acts,39,07,Transport policy,07.07,Statistics,Transport
+369,3,Directory of legal acts,40,07,Transport policy,07.10,Transport infrastructure,Transport
+370,3,Directory of legal acts,41,07,Transport policy,07.20,Inland transport,Transport
+371,3,Directory of legal acts,42,07,Transport policy,07.30,Shipping,Transport
+372,3,Directory of legal acts,43,07,Transport policy,07.40,Ait transport,Transport
+373,3,Directory of legal acts,44,08,Competition policy,08.10,Competition principles,Competition
+374,3,Directory of legal acts,45,08,Competition policy,08.20,Restrictive practices,Competition
+375,3,Directory of legal acts,46,08,Competition policy,08.30,Dominant positions,Competition
+376,3,Directory of legal acts,47,08,Competition policy,08.40,Concentrations,Competition
+377,3,Directory of legal acts,48,08,Competition policy,08.50,Application of the rules of competition to public undertakings,Competition
+378,3,Directory of legal acts,49,08,Competition policy,08.60,State aids and other subsidies,Competition
+379,3,Directory of legal acts,50,08,Competition policy,08.70,Intra-Community dumping practices,Competition
+380,3,Directory of legal acts,51,08,Competition policy,08.80,Obligations of undertakings,Competition
+381,3,Directory of legal acts,52,08,Competition policy,08.90,National trading monopolies,Competition
+382,3,Directory of legal acts,53,09,Taxation,09.10,General,Taxation
+383,3,Directory of legal acts,54,09,Taxation,09.20,Direct taxation,Taxation
+384,3,Directory of legal acts,55,09,Taxation,09.30,Indirect taxation,Taxation
+385,3,Directory of legal acts,56,09,Taxation,09.40,Other taxes,Taxation
+386,3,Directory of legal acts,57,09,Taxation,09.50,Prevention of tax evasion and avoidance,Taxation
+387,3,Directory of legal acts,58,10,Economic and monetary policy and the free movement of capital,10.07,Statistics,Economic policy
+388,3,Directory of legal acts,59,10,Economic and monetary policy and the free movement of capital,10.10,General,Economic policy
+389,3,Directory of legal acts,60,10,Economic and monetary policy and the free movement of capital,10.20,Monetary policy,Economic policy
+390,3,Directory of legal acts,61,10,Economic and monetary policy and the free movement of capital,10.30,Economic policy,Economic policy
+391,3,Directory of legal acts,62,10,Economic and monetary policy and the free movement of capital,10.40,Free movement of capital,Economic policy
+392,3,Directory of legal acts,63,11,External relations,11.10,General,External relations
+393,3,Directory of legal acts,64,11,External relations,11.20,European political cooperation,External relations
+394,3,Directory of legal acts,65,11,External relations,11.30,Multilateral relations,External relations
+395,3,Directory of legal acts,66,11,External relations,11.40,Bilateral agreements with non-member countries,External relations
+396,3,Directory of legal acts,67,11,External relations,11.50,Action in favor of countries in transition,External relations
+397,3,Directory of legal acts,68,11,External relations,11.60,Commercial policy,Trade
+398,3,Directory of legal acts,69,11,External relations,11.70,Development policy,Development
+399,3,Directory of legal acts,70,12,Energy,12.07,Statistics,Energy
+400,3,Directory of legal acts,71,12,Energy,12.10,General principles and programs,Energy
+401,3,Directory of legal acts,72,12,Energy,12.20,Coal,Energy
+402,3,Directory of legal acts,73,12,Energy,12.30,Electricity,Energy
+403,3,Directory of legal acts,74,12,Energy,12.40,Nuclear energy,Energy
+404,3,Directory of legal acts,75,12,Energy,12.50,Oil and gas,Energy
+405,3,Directory of legal acts,76,12,Energy,12.60,Other sources of energy,Energy
+406,3,Directory of legal acts,77,13,Industrial policy and internal market,13.10,"Industrial policy: general, programs, statistics and research",Industrial policy
+407,3,Directory of legal acts,78,13,Industrial policy and internal market,13.20,Industrial policy: sectoral operations,Industrial policy
+408,3,Directory of legal acts,79,13,Industrial policy and internal market,13.30,Internal market: approximation of laws,Internal market
+409,3,Directory of legal acts,80,13,Industrial policy and internal market,13.40,Internal market: policy relating to undertakings,Internal market
+410,3,Directory of legal acts,81,13,Industrial policy and internal market,13.50,Miscellaneous,Multiple
+411,3,Directory of legal acts,82,13,Industrial policy and internal market,13.60,Trans-European networks,Information technology
+412,3,Directory of legal acts,83,14,Regional policy coordination of structural instruments,14.07,Statistics,Regional policy
+413,3,Directory of legal acts,84,14,Regional policy coordination of structural instruments,14.10,"General principles, programs and statistics",Regional policy
+414,3,Directory of legal acts,85,14,Regional policy coordination of structural instruments,14.20,European Regional Development Fund (ERDF),Regional policy
+415,3,Directory of legal acts,86,14,Regional policy coordination of structural instruments,14.30,Monitoring and coordination of regional State aids,Regional policy
+416,3,Directory of legal acts,87,14,Regional policy coordination of structural instruments,14.40,Autonomous regional action,Regional policy
+417,3,Directory of legal acts,88,14,Regional policy coordination of structural instruments,14.50,Coordination of structural instruments,Regional policy
+418,3,Directory of legal acts,89,14,Regional policy coordination of structural instruments,14.60,Economic and social cohesion fund,Regional policy
+419,3,Directory of legal acts,90,15,"Environment, consumers and health protection",15.07,Statistics,Multiple
+420,3,Directory of legal acts,91,15,"Environment, consumers and health protection",15.10,Environment,Environment
+421,3,Directory of legal acts,92,15,"Environment, consumers and health protection",15.20,Consumers,Consumer protection
+422,3,Directory of legal acts,93,15,"Environment, consumers and health protection",15.30,Health protection,Health
+423,3,Directory of legal acts,94,15,"Environment, consumers and health protection",15.40,Protection of animals,Health
+424,3,Directory of legal acts,95,16,"Science, information, education and culture",16.01,General,Multiple
+425,3,Directory of legal acts,96,16,"Science, information, education and culture",16.07,Statistics,Multiple
+426,3,Directory of legal acts,97,16,"Science, information, education and culture",16.10,Science,Research
+427,3,Directory of legal acts,98,16,"Science, information, education and culture",16.20,Dissemination of information,Information technology
+428,3,Directory of legal acts,99,16,"Science, information, education and culture",16.30,Education and training,Education
+429,3,Directory of legal acts,100,16,"Science, information, education and culture",16.40,Culture,Culture
+430,3,Directory of legal acts,101,17,Law relating to undertakings,17.01,General,Competition
+431,3,Directory of legal acts,102,17,Law relating to undertakings,17.10,Company law,Competition
+432,3,Directory of legal acts,103,17,Law relating to undertakings,17.20,Intellectual property law,Competition
+433,3,Directory of legal acts,104,17,Law relating to undertakings,17.30,Economic and commercial law,Competition
+434,3,Directory of legal acts,105,18,Common Foreign and Security Policy,None,None,Defense
+435,3,Directory of legal acts,106,19,"Area of freedom, security and justice",19.01,General,Multiple
+436,3,Directory of legal acts,107,19,"Area of freedom, security and justice",19.10,Free movement of persons,Home affairs
+437,3,Directory of legal acts,108,19,"Area of freedom, security and justice",19.20,Judicial cooperation in civil matters,Justice
+438,3,Directory of legal acts,109,19,"Area of freedom, security and justice",19.30,Police and judicial cooperation in criminal and customs matters,Justice
+439,3,Directory of legal acts,110,19,"Area of freedom, security and justice",19.40,Programs,Justice
+440,3,Directory of legal acts,111,19,"Area of freedom, security and justice",19.50,External relations,Justice
+441,3,Directory of legal acts,112,20,People's Europe,20.01,General,None
+442,3,Directory of legal acts,113,20,People's Europe,20.07,Statistics,None
+443,3,Directory of legal acts,114,20,People's Europe,20.10,Freedom of movement of people,None
+444,3,Directory of legal acts,115,20,People's Europe,20.20,European citizenship,None

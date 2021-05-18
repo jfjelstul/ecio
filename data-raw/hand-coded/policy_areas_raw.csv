@@ -1,0 +1,31 @@
+policy_area_id,policy_area,first_appearance,history
+1,Agriculture,Hallstein I,VI (Hallstein I) > AGRI (Prodi)
+2,Budget,Rey,"none > XVIII, XIX, XX (Rey) > BUDG, FC (Prodi) > BUDG (Barroso I)"
+3,Climate,Borroso II,none > CLIMA (Borroso II)
+4,Competition,Hallstein I,IV (Hallstein I) > COMP (Prodi)
+5,Consumer protection,Thorn,none > XI (Thorn) > none (Delors II) > XXIV (Santer) > SANCO (Prodi) > JUST (Junker)
+6,Culture,Delors II,none > X (Delors II) > EAC (Prodi)
+7,Customs union,Delors I,none > XXI (Delors I) > TAXUD (Prodi)
+8,Defense,von der Leyen,none > DEFIS (von der Leyen)
+9,Development,Hallstein I,VIII (Hallstein I) > DEV (Prodi) > DEVCO (Junker)
+10,Economic policy,Hallstein I,II (Hallstein I) > ECFIN (Prodi)
+11,Education,Santer,none > XXII (Santer) > EAC (Prodi)
+12,Energy,Rey,none > XVII (Rey) > TREN (Prodi) > ENER (Borroso II)
+13,Enlargement,Prodi,none > ELARG (Prodi) > NEAR (Junker)
+14,Environment,Thorn,none > XI (Thorn) > ENV (Prodi)
+15,External relations,Hallstein I,I (Hallstein I) > RELEX (Prodi) > FPI (Junker)
+16,Financial policy,Junker,none > FISMA (Junker)
+17,Fisheries,Jenkins,none > XIV (Jenkins) > FISH (Prodi) > MARE (Borroso II)
+18,Health,Prodi,none > SANCO (Prodi) > SANTE (Junker)
+19,Home affairs,Prodi,none > JAI (Prodi) > HOME (Borroso II)
+20,Humanitarian aid,Borroso II,none > ECHO (Borroso II)
+21,Industrial policy,Rey,"none > III (Rey) > III, XXIII (Delors II) > ENTR (Prodi) > GROW (Junker)"
+22,Information technology,Rey,none > XIII (Rey) > INFSO (Prodi) > CNCT (Junker)
+23,Internal market,Hallstein I,III (Hallstein I) > XIV (Rey) > XI (Ortoli) > III (Jenkins) > XV (Delors III) > MARKT (Prodi) > GROW (Junker)
+24,Justice,Prodi,none > JAI (Prodi) > JUST (Borroso II)
+25,Regional policy,Rey,"none > XVI (Rey) > XVI, XXII (Delors I) > XVI (Delors III)  > REGIO (Prodi)"
+26,Research,Rey,none > XII (Rey) > none (Malfatti) > XII (Ortoli) > RTD (Prodi)
+27,Social policy,Hallstein I,V (Hallstein I) > EMPL (Prodi)
+28,Taxation,,
+29,Trade,Rey,none > XI (Rey) > none (Ortoli) > TRADE (Prodi)
+30,Transport,Hallstein I,VII (Hallstein I) > TREN (Prodi) > MOVE (Barroso II)

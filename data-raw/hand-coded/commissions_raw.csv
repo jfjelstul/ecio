@@ -1,0 +1,18 @@
+commission_id,commission,first_name,last_name,first_name_latin,last_name_latin,member_state,national_party_name,national_party_name_english,national_party_code,political_group_name,political_group_code,start_date,end_date,first_directory
+1,Hallstein I,Walter,Hallstein,Walter,Hallstein,Germany,Christlich Demokratische Union,Christian Democratic Union,CDU,None,None,1958-01-01,1962-01-09,1958
+2,Hallstein II,Walter,Hallstein,Walter,Hallstein,Germany,Christlich Demokratische Union,Christian Democratic Union,CDU,None,None,1962-01-10,1967-06-30,1962
+3,Rey,Jean,Rey,Jean,Rey,Belgium,Partij voor Vrijheid en Vooruitgang,Party for Freedom and Progress,PVV-PLP,None,None,1967-07-01,1970–06-30,1968
+4,Malfatti,Franco Maria,Malfatti,Franco Maria,Malfatti,Italy,Democrazia Cristiana,Christian Democracy,DC,None,None,1970-07-01,1972-03-21,1971
+5,Mansholt,Sicco,Mansholt,Sicco,Mansholt,Netherlands,Partij van de Arbeid,Labour Party,PvdA,None,None,1972-03-22,1973-01-05,1972
+6,Ortoli,François-Xavier,Ortoli,Francois-Xavier,Ortoli,France,Union pour un mouvement populaire,Union for a Popular Movement,UMP,None,None,1973-01-06,1977-01-05,1973
+7,Jenkins,Roy,Jenkins,Roy,Jenkins,United Kingdom,Labour,Labour,Labour,None,None,1977-01-06,1981-01-05,1977
+8,Thorn,Gaston,Thorn,Gaston,Thorn,Luxembourg,Demokratesch Partei,Democratic Party,DP,None,None,1981-01-06,1985-01-05,1981
+9,Delors I,Jacques,Delors,Jacques,Delors,France,Parti socialiste,Socialist Party,PS,None,None,1985-01-06,1989-01-05,1985
+10,Delors II,Jacques,Delors,Jacques,Delors,France,Parti socialiste,Socialist Party,PS,None,None,1989-01-06,1993-01-05,1989
+11,Delors III,Jacques,Delors,Jacques,Delors,France,Parti socialiste,Socialist Party,PS,None,None,1993-01-06,1995-01-22,1993
+12,Santer,Jacques,Santer,Jacques,Santer,Luxembourg,Chrëschtlech Sozial Vollekspartei,Christian Social People's Party,CSV,European People's Party (EPP),EPP,1995-01-23,1999-09-15,1995
+13,Prodi,Romano,Prodi,Romano,Prodi,Italy,I Democratici,The Democrats,ID,European Liberal Democrat and Reform Party (ELDR),ELDR,1999-09-16,2004-11-21,2000
+14,Barroso I,José Manuel,Barroso,Jose Manuel,Barroso,Portugal,Partido Social Democrata,Social Democratic Party,PSD,European People's Party (EPP),EPP,2004-11-22,2010-02-08,2005
+15,Barroso II,José Manuel,Barroso,Jose Manuel,Barroso,Portugal,Partido Social Democrata,Social Democratic Party,PSD,European People's Party (EPP),EPP,2010-02-09,2014-10-31,2010
+16,Junker,Jean-Claude,Junker,Jean-Claude,Junker,Luxembourg,Chrëschtlech Sozial Vollekspartei,Christian Social People's Party,CSV,European People's Party (EPP),EPP,2014-11-01,2019-11-30,2015
+17,von der Leyen,Ursula,von der Leyen,Ursula,von der Leyen,Germany,Christlich Demokratische Union,Christian Democratic Union,CDU,European People's Party (EPP),EPP,2019-12-01,2020-12-31,2020
