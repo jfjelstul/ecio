@@ -1,0 +1,16 @@
+Package: ecio
+Type: Package
+Title: The European Commission Internal Organization (ECIO) Database
+Version: 0.1.0
+Authors@R: person(given = "Joshua",
+           family = "Fjelstul",
+           role = c("aut", "cre"),
+           email = "joshfjelstul@gmail.com",
+           comment = c(ORCID = "0000-0002-9494-260X"))
+Description: This package provides access to data from the European Commission Internal Organization (ECIO) Database by Joshua Fjelstul, Ph.D.
+Date: 2021-05-15
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
