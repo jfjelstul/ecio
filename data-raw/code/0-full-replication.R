@@ -111,13 +111,22 @@ rm(list=ls())
 ##################################################
 
 # read in data
-codebook <- read.csv("codebook/codebook.csv", stringsAsFactors = FALSE)
+codebook <- read.csv("data-raw/codebook/codebook.csv", stringsAsFactors = FALSE)
 
 # convert to a tibble
 codebook <- dplyr::as_tibble(codebook)
 
 # save
 save(codebook, file = "data/codebook.RData")
+
+# documentation
+codebookr::document_data(
+  path = "R/",
+  codebook_file = "data-raw/codebook/codebook.csv",
+  markdown_file = "data-raw/codebook/descriptions.txt",
+  author = "Joshua C. Fjelstul, Ph.D.",
+  package = "ecio"
+)
 
 ##################################################
 # read in data
