@@ -54,10 +54,10 @@ commissions
 }
 \description{
 This dataset includes data on Commissions of the European Union
-(1958-2021). There is one observation per commission. The data indicates
+(1958-2021). There is one observation per Commission. The data indicates
 the national party and European political group of the President of the
 Commission and the start and end dates of each Commission. The Mansholt
-Commission is treated as its own Commission but the Marín Commission is
+Commission is treated as its own Commission. The Marín Commission is
 treated as part of the Santer Commission.
 }
 \keyword{datasets}

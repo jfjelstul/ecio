@@ -67,16 +67,17 @@ portfolio_allocations
 }
 \description{
 This dataset includes data on portfolio allocations (1958-2021). There is
-one observation per portfolio allocation per Commission. A new observation
-is created every time the portfolio of a Commissioner changes, regardless
-of whether that change results in a change in the departments that the
-Commissioner oversees. There can be multiple observations per individual
-per Commission if an individual's portfolio changes during the Commission.
-Portfolio allocations do not span Commissions. If a Commissioner has the
-same portfolio for more than one Commission, there will be multiple
-observations, one for each Commission. The dataset indicates the start and
-end dates of each portfolio allocation, the departments that each
-Commissioner oversees, and the policy areas that correspond to those
-departments.
+one observation per portfolio allocation per Commission (i.e., one
+observation per portfolio per Commissioner per Commission). A new
+observation is created every time the portfolio of a Commissioner changes,
+regardless of whether that change results in a change in the departments
+that the Commissioner oversees. There can be multiple observations per
+individual per Commission if an individual's portfolio changes during the
+Commission. Portfolio allocations do not span Commissions. If a
+Commissioner has the same portfolio for more than one Commission, there
+will be multiple observations, one for each Commission. The dataset
+indicates the start and end dates of each portfolio allocation, the
+departments that each Commissioner oversees, and the policy areas that
+correspond to those departments.
 }
 \keyword{datasets}

@@ -64,11 +64,11 @@ department_histories
 \description{
 This dataset includes data on the histories of the current departments of
 the Commission, including Directorates-General and service departments
-(1958-2021). There is one observation per historical interval. An interval
-is a period of time in which the nomenclature of a department is constant.
-Unlike allocations, intervals can span Commissions. By sorting the dataset
-by current department, you can see the evolution of each department over
-time. The dataset indicates the Commissions associated with each interval
-and the start and end dates of each interval.
+(1958-2021). There is one observation per historical interval in which the
+nomenclature of a department is constant. Unlike allocations, intervals can
+span Commissions. By sorting the dataset by current department, you can see
+the evolution of each department over time. The dataset indicates the
+Commissions associated with each interval and the start and end dates of
+each interval.
 }
 \keyword{datasets}

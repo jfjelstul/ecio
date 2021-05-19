@@ -7,7 +7,8 @@
 #' Data on policy area allocations
 #' 
 #' This dataset includes data on policy area allocations (1958-2021). There is
-#' one observation per policy area allocation per Commission. A new
+#' one observation per policy area allocation per Commission (i.e., one
+#' observation per policy area per Commissioner per Commission). A new
 #' observation is created every time a change in the portfolio of a
 #' Commissioner leads to a change in who oversees a policy area. There can be
 #' multiple observations per individual per Commission if an individual

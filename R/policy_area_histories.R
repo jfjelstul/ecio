@@ -8,15 +8,15 @@
 #' 
 #' This dataset includes data on the histories of the policy areas covered by
 #' the departments of the Commission (1958-2021). There is one observation per
-#' historical interval. An interval is a period of time in which the mapping
-#' between a policy area and a department is constant. If the nomenclature of
-#' a department changes, a new interval will be created. Unlike allocations,
-#' intervals can span Commissions. There can also be multiple overlaping
-#' intervals per policy area when a policy area is split across multiple
-#' departments at the same time. By sorting the dataset by policy area, you
-#' can see the evolution of the mapping between the policy area and
-#' departments over time. The dataset indicates the Commissions associated
-#' with each interval and the start and end dates of each interval.
+#' historical interval in which the mapping between a policy area and a
+#' department is constant. If the nomenclature of a department changes, a new
+#' interval will be created. Unlike allocations, intervals can span
+#' Commissions. There can also be multiple overlaping intervals per policy
+#' area when a policy area is split across multiple departments at the same
+#' time. By sorting the dataset by policy area, you can see the evolution of
+#' the mapping between the policy area and departments over time. The dataset
+#' indicates the Commissions associated with each interval and the start and
+#' end dates of each interval.
 #' 
 #' @format A data frame with 18 variables:
 #' \describe{

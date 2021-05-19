@@ -72,15 +72,16 @@ department_allocations
 }
 \description{
 This dataset includes data on department allocations (1958-2021). There is
-one observation per department allocation per Commission. A new observation
-is created every time a change in the portfolio of a Commissioner leads to
-a change in who oversees a department. There can be multiple observations
-per individual per Commission if an individual oversees multiple
-departments or if the individual's portfolio changes during the Commission.
-Department allocations do not span Commissions. If a Commissioner oversees
-the same department for more than one Commission, there will be multiple
-observations, one for each Commission. The dataset indicates the start and
-end dates of each department allocation and the policy areas that
-correspond to each department.
+one observation per department allocation per Commission (i.e., one
+observation per department per Commissioner per Commission). A new
+observation is created every time a change in the portfolio of a
+Commissioner leads to a change in who oversees a department. There can be
+multiple observations per individual per Commission if an individual
+oversees multiple departments or if the individual's portfolio changes
+during the Commission. Department allocations do not span Commissions. If a
+Commissioner oversees the same department for more than one Commission,
+there will be multiple observations, one for each Commission. The dataset
+indicates the start and end dates of each department allocation and the
+policy areas that correspond to each department.
 }
 \keyword{datasets}
