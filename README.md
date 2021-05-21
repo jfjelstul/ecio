@@ -13,7 +13,7 @@ devtools::install_github("jfjelstul/ecio")
 
 ## Documentation
 
-The codebook for the database is included as a `tibble` in the package: `ecio::codebook`. The same documentation is also available in the `R` documentation for each dataset. For example, you can see the codebook for the `ecio::commissioners` dataset by running `?ecio::commissioners`.
+The codebook for the database is included as a `tibble` in the package: `ecio::codebook`. The same documentation is also available in the `R` documentation for each dataset. For example, you can see the codebook for the `ecio::commissioners` dataset by running `?ecio::commissioners`. You can also read the documentation on the [package website](https://jfjelstul.github.io/ecio/). 
 
 ## Citation
 
