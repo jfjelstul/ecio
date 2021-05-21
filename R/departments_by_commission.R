@@ -5,7 +5,7 @@
 ################################################################################
 
 #' Data on departments (by Commission)
-#' 
+#'
 #' This dataset includes data on departments of the Commission, including
 #' Directorates-General and service departments (1958-2021). There is one
 #' observation per department per Commission. This dataset provides a snapshot
@@ -15,7 +15,7 @@
 #' late in a year, the first directory is usually published early the next
 #' year. The exception is the Prodi Commission. The data for this Commission
 #' comes from the earliest available directory.
-#' 
+#'
 #' @format A data frame with 18 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -55,4 +55,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

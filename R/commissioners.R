@@ -5,13 +5,13 @@
 ################################################################################
 
 #' Data on Commissioners
-#' 
+#'
 #' This dataset includes data on Commissioners (1958-2021). There is one
 #' observation per individual who has served as a Commissioner. The dataset
 #' indicates the national party and European political group of each
 #' individual, the Commissions that the individual served during, and the
 #' earliest and latest dates that each individual was in office.
-#' 
+#'
 #' @format A data frame with 26 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -68,4 +68,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

@@ -58,7 +58,8 @@ policy_area_allocations <- policy_area_allocations %>%
     start_date = min(start_date),
     end_date = max(end_date),
     .groups = "drop_last"
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # # appearances
 # policy_area_allocations <- policy_area_allocations %>%

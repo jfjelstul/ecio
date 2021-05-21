@@ -5,7 +5,7 @@
 ################################################################################
 
 #' Data on policy area histories
-#' 
+#'
 #' This dataset includes data on the histories of the policy areas covered by
 #' the departments of the Commission (1958-2021). There is one observation per
 #' historical interval in which the mapping between a policy area and a
@@ -17,7 +17,7 @@
 #' the mapping between the policy area and departments over time. The dataset
 #' indicates the Commissions associated with each interval and the start and
 #' end dates of each interval.
-#' 
+#'
 #' @format A data frame with 18 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -65,4 +65,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

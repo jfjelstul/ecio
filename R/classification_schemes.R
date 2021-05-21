@@ -5,7 +5,7 @@
 ################################################################################
 
 #' Data on classification schemes
-#' 
+#'
 #' This dataset includes data on the classification schemes used by EUR-Lex,
 #' the Commission's official database of EU legal documents. EUR-Lex sorts
 #' documents based on a case law directory and a directory of legal acts.
@@ -13,7 +13,7 @@
 #' Each directory has major codes and minor codes. There is one observation
 #' per minor code per classification scheme. The dataset indicates the policy
 #' area (if any) that best corresponds to each minor code.
-#' 
+#'
 #' @format A data frame with 10 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -45,4 +45,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

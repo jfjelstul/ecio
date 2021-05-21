@@ -9,23 +9,23 @@
 
 # commissions
 # one observation per commission
-source("replication/1-commissions.R")
-rm(list=ls())
+source("replication/01-commissions.R")
+rm(list = ls())
 # input: data-raw/commissions_raw.csv (source of raw data)
 # input: data-raw/member_states_raw.csv (for member state ID)
 # output: data/commissions.RData
 
 # departments
 # one observation per unique department name
-source("replication/2-departments.R")
-rm(list=ls())
+source("replication/02-departments.R")
+rm(list = ls())
 # input: data-raw/departments_raw.csv (source of raw data)
 # output: data/departments.RData
 
 # departments by commission
 # one observation per department per commission
-source("replication/3-departments-by-commission.R")
-rm(list=ls())
+source("replication/03-departments-by-commission.R")
+rm(list = ls())
 # input: data-raw/departments_raw.csv (source of raw data)
 # input: data/commissions.RData (for commission dates)
 # input: data/departments.RData (for department ID)
@@ -33,16 +33,16 @@ rm(list=ls())
 
 # commissioners
 # one observation per unique individual
-source("replication/4-commissioners.R")
-rm(list=ls())
+source("replication/04-commissioners.R")
+rm(list = ls())
 # input: data-raw/portfolios_raw.csv (source of raw data)
 # input: data-raw/member_states_raw.csv (for member state ID)
 # output: data/commissioners.RData
 
 # commissioners by commission
 # one observation per individual per commission
-source("replication/5-commissioners-by-commission.R")
-rm(list=ls())
+source("replication/05-commissioners-by-commission.R")
+rm(list = ls())
 # input: data-raw/portfolios_raw.csv (source of raw data)
 # input: data/commissions.RData (for commission dates)
 # input: data-raw/member_states_raw.csv (for member state ID)
@@ -51,16 +51,16 @@ rm(list=ls())
 
 # policy areas
 # one observation per policy area
-source("replication/6-policy-areas.R")
-rm(list=ls())
+source("replication/06-policy-areas.R")
+rm(list = ls())
 # input: data-raw/policy_areas_raw.csv (source of raw data)
 # input: data-raw/classification_schemes_raw.csv (source of raw data)
 # output: data/policy_areas.RData
 
 # portfolio allocations
 # one observation per unique portfolio allocation per commission
-source("replication/7-portfolio-allocations.R")
-rm(list=ls())
+source("replication/07-portfolio-allocations.R")
+rm(list = ls())
 # input: data-raw/portfolios_raw.csv (source of raw data)
 # input: data-raw/member_states.csv (for member state ID)
 # input: data/commissioners.RData (for commissioner ID)
@@ -68,16 +68,16 @@ rm(list=ls())
 
 # department allocations
 # one observation per unique department allocation per commission
-source("replication/8-department-allocations.R")
-rm(list=ls())
+source("replication/08-department-allocations.R")
+rm(list = ls())
 # input: data/portfolio_allocations.RData (source of data)
 # input: data/departments.RData (for department ID)
 # output: data/department_allocations.RData
 
 # policy area allocations
 # one observation per unique policy area allocation per commission
-source("replication/9-policy-area-allocations.R")
-rm(list=ls())
+source("replication/09-policy-area-allocations.R")
+rm(list = ls())
 # input: data/department_portfolios.RData (source of data)
 # input: data/policy_areas.RData (for department ID)
 # output: data/policy_area_allocations.RData
@@ -85,7 +85,7 @@ rm(list=ls())
 # department histories
 # one observation per former department per current department
 source("replication/10-department-histories.R")
-rm(list=ls())
+rm(list = ls())
 # input: data/departments_by_commission.RData (source of data)
 # input: data/departments.RData (for department ID)
 # output: data/department_histories.RData
@@ -93,7 +93,7 @@ rm(list=ls())
 # policy area histories
 # one observation per unique department name per policy area
 source("replication/11-policy-area-histories.R")
-rm(list=ls())
+rm(list = ls())
 # input: data/departments_by_commission.RData (source of data)
 # input: data/policy_areas.RData (for policy area ID)
 # output: data/policy_area_histories.RData
@@ -101,7 +101,7 @@ rm(list=ls())
 # classifications
 # on observation per classification code per scheme
 source("replication/12-classification-schemes.R")
-rm(list=ls())
+rm(list = ls())
 # input: data-raw/classification_schemes_raw.csv (source of raw data)
 # input: data/policy_areas.RData (for policy area ID)
 # output: data/classification_schemes.RData

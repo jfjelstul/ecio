@@ -57,7 +57,8 @@ commissioners_by_commission <- portfolios_raw %>%
     enlargement = sum(stringr::str_detect(interval, "^enlargement")),
     portfolio_change = as.numeric(dplyr::n() > 1),
     .groups = "drop_last"
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # full name
 commissioners_by_commission$full_name <- stringr::str_c(commissioners_by_commission$first_name, commissioners_by_commission$last_name, sep = " ")

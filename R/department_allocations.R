@@ -5,7 +5,7 @@
 ################################################################################
 
 #' Data on department allocations
-#' 
+#'
 #' This dataset includes data on department allocations (1958-2021). There is
 #' one observation per department allocation per Commission (i.e., one
 #' observation per department per Commissioner per Commission). A new
@@ -18,7 +18,7 @@
 #' there will be multiple observations, one for each Commission. The dataset
 #' indicates the start and end dates of each department allocation and the
 #' policy areas that correspond to each department.
-#' 
+#'
 #' @format A data frame with 30 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -85,4 +85,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

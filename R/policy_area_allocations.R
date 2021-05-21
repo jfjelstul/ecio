@@ -5,7 +5,7 @@
 ################################################################################
 
 #' Data on policy area allocations
-#' 
+#'
 #' This dataset includes data on policy area allocations (1958-2021). There is
 #' one observation per policy area allocation per Commission (i.e., one
 #' observation per policy area per Commissioner per Commission). A new
@@ -17,7 +17,7 @@
 #' a Commissioner oversees a policy area for more than one Commission, there
 #' will be multiple observations, one for each Commission. The dataset
 #' indicates the start and end dates of each policy allocation.
-#' 
+#'
 #' @format A data frame with 28 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -79,4 +79,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

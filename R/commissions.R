@@ -5,14 +5,14 @@
 ################################################################################
 
 #' Data on Commissions
-#' 
+#'
 #' This dataset includes data on Commissions of the European Union
 #' (1958-2021). There is one observation per Commission. The data indicates
 #' the national party and European political group of the President of the
 #' Commission and the start and end dates of each Commission. The Mansholt
 #' Commission is treated as its own Commission. The Marín Commission is
 #' treated as part of the Santer Commission.
-#' 
+#'
 #' @format A data frame with 25 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -61,4 +61,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

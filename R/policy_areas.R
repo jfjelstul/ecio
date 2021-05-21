@@ -5,7 +5,7 @@
 ################################################################################
 
 #' Data on policy areas
-#' 
+#'
 #' This dataset includes data on policy areas covered by departments of the
 #' Commission (1958-2021). There is one observation per policy area. EUR-Lex,
 #' the Commission's official database of EU legal documents, sorts documents
@@ -13,7 +13,7 @@
 #' pre-Lisbon and post-Lisbon version of the case law directory. The dataset
 #' indicates the directory codes that correspond to each policy area according
 #' to each of these classification schemes.
-#' 
+#'
 #' @format A data frame with 6 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -34,4 +34,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

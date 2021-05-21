@@ -5,13 +5,13 @@
 ################################################################################
 
 #' Data on departments
-#' 
+#'
 #' This dataset includes data on departments of the Commission, including
 #' Directorates-General and service departments (1958-2021). There is one
 #' observation per unique department. A new observation is created every time
 #' a department is renamed, even if the department itself does not change.
 #' This allows you to track changes in department nomenclature over time.
-#' 
+#'
 #' @format A data frame with 13 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -51,4 +51,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

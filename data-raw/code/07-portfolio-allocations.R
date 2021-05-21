@@ -72,8 +72,12 @@ portfolio_allocations$end_day <- lubridate::day(portfolio_allocations$end_date)
 ##################################################
 
 # portfolio change
-portfolio_allocations$change_at_start <- portfolio_allocations$interval %>% stringr::str_detect("^change") %>% as.numeric()
-portfolio_allocations$change_at_end <- portfolio_allocations$interval %>% stringr::str_detect("change$") %>% as.numeric()
+portfolio_allocations$change_at_start <- portfolio_allocations$interval %>%
+  stringr::str_detect("^change") %>%
+  as.numeric()
+portfolio_allocations$change_at_end <- portfolio_allocations$interval %>%
+  stringr::str_detect("change$") %>%
+  as.numeric()
 
 ##################################################
 # organize

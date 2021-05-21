@@ -5,7 +5,7 @@
 ################################################################################
 
 #' Data on department histories
-#' 
+#'
 #' This dataset includes data on the histories of the current departments of
 #' the Commission, including Directorates-General and service departments
 #' (1958-2021). There is one observation per historical interval in which the
@@ -14,7 +14,7 @@
 #' the evolution of each department over time. The dataset indicates the
 #' Commissions associated with each interval and the start and end dates of
 #' each interval.
-#' 
+#'
 #' @format A data frame with 21 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -72,4 +72,3 @@
 ################################################################################
 # end R script
 ################################################################################
-
