@@ -9,7 +9,7 @@
 
 # commissions
 # one observation per commission
-source("replication/01-commissions.R")
+source("data-raw/code/01_commissions.R")
 rm(list = ls())
 # input: data-raw/commissions_raw.csv (source of raw data)
 # input: data-raw/member_states_raw.csv (for member state ID)
@@ -17,14 +17,14 @@ rm(list = ls())
 
 # departments
 # one observation per unique department name
-source("replication/02-departments.R")
+source("data-raw/code/02_departments.R")
 rm(list = ls())
 # input: data-raw/departments_raw.csv (source of raw data)
 # output: data/departments.RData
 
 # departments by commission
 # one observation per department per commission
-source("replication/03-departments-by-commission.R")
+source("data-raw/code/03_departments_by_commission.R")
 rm(list = ls())
 # input: data-raw/departments_raw.csv (source of raw data)
 # input: data/commissions.RData (for commission dates)
@@ -33,7 +33,7 @@ rm(list = ls())
 
 # commissioners
 # one observation per unique individual
-source("replication/04-commissioners.R")
+source("data-raw/code/04_commissioners.R")
 rm(list = ls())
 # input: data-raw/portfolios_raw.csv (source of raw data)
 # input: data-raw/member_states_raw.csv (for member state ID)
@@ -41,7 +41,7 @@ rm(list = ls())
 
 # commissioners by commission
 # one observation per individual per commission
-source("replication/05-commissioners-by-commission.R")
+source("data-raw/code/05_commissioners_by_commission.R")
 rm(list = ls())
 # input: data-raw/portfolios_raw.csv (source of raw data)
 # input: data/commissions.RData (for commission dates)
@@ -51,7 +51,7 @@ rm(list = ls())
 
 # policy areas
 # one observation per policy area
-source("replication/06-policy-areas.R")
+source("data-raw/code/06_policy_areas.R")
 rm(list = ls())
 # input: data-raw/policy_areas_raw.csv (source of raw data)
 # input: data-raw/classification_schemes_raw.csv (source of raw data)
@@ -59,7 +59,7 @@ rm(list = ls())
 
 # portfolio allocations
 # one observation per unique portfolio allocation per commission
-source("replication/07-portfolio-allocations.R")
+source("data-raw/code/07_portfolio_allocations.R")
 rm(list = ls())
 # input: data-raw/portfolios_raw.csv (source of raw data)
 # input: data-raw/member_states.csv (for member state ID)
@@ -68,7 +68,7 @@ rm(list = ls())
 
 # department allocations
 # one observation per unique department allocation per commission
-source("replication/08-department-allocations.R")
+source("data-raw/code/08_department_allocations.R")
 rm(list = ls())
 # input: data/portfolio_allocations.RData (source of data)
 # input: data/departments.RData (for department ID)
@@ -76,7 +76,7 @@ rm(list = ls())
 
 # policy area allocations
 # one observation per unique policy area allocation per commission
-source("replication/09-policy-area-allocations.R")
+source("data-raw/code/09_policy_area_allocations.R")
 rm(list = ls())
 # input: data/department_portfolios.RData (source of data)
 # input: data/policy_areas.RData (for department ID)
@@ -84,7 +84,7 @@ rm(list = ls())
 
 # department histories
 # one observation per former department per current department
-source("replication/10-department-histories.R")
+source("data-raw/code/10_department_histories.R")
 rm(list = ls())
 # input: data/departments_by_commission.RData (source of data)
 # input: data/departments.RData (for department ID)
@@ -92,7 +92,7 @@ rm(list = ls())
 
 # policy area histories
 # one observation per unique department name per policy area
-source("replication/11-policy-area-histories.R")
+source("data-raw/code/11_policy_area_histories.R")
 rm(list = ls())
 # input: data/departments_by_commission.RData (source of data)
 # input: data/policy_areas.RData (for policy area ID)
@@ -100,7 +100,7 @@ rm(list = ls())
 
 # classifications
 # on observation per classification code per scheme
-source("replication/12-classification-schemes.R")
+source("data-raw/code/12_classification_schemes.R")
 rm(list = ls())
 # input: data-raw/classification_schemes_raw.csv (source of raw data)
 # input: data/policy_areas.RData (for policy area ID)
@@ -183,22 +183,40 @@ table(is.na(classification_schemes))
 table(is.na(codebook))
 
 ##################################################
-# variables names
+# build
 ##################################################
 
-names(commissions)
-names(departments)
-names(departments_by_commission)
-names(commissioners)
-names(commissioners_by_commission)
-names(policy_areas)
-names(portfolio_allocations)
-names(department_allocations)
-names(policy_area_allocations)
-names(department_histories)
-names(policy_area_histories)
-names(classification_schemes)
-names(codebooks)
+write.csv(commissions, "build/ecio_commissions.csv", row.names = FALSE, quote = TRUE)
+write.csv(departments, "build/ecio_deprtments.csv", row.names = FALSE, quote = TRUE)
+write.csv(departments_by_commission, "build/ecio_deparments_by_commission.csv", row.names = FALSE, quote = TRUE)
+write.csv(commissioners, "build/ecio_commissioners.csv", row.names = FALSE, quote = TRUE)
+write.csv(commissioners_by_commission, "build/ecio_commissioners_by_commission.csv", row.names = FALSE, quote = TRUE)
+write.csv(policy_areas, "build/ecio_policy_areas.csv", row.names = FALSE, quote = TRUE)
+write.csv(portfolio_allocations, "build/ecio_portfolio_allocations.csv", row.names = FALSE, quote = TRUE)
+write.csv(department_allocations, "build/ecio_department_allocations.csv", row.names = FALSE, quote = TRUE)
+write.csv(policy_area_allocations, "build/ecio_policy_area_allocations.csv", row.names = FALSE, quote = TRUE)
+write.csv(department_histories, "build/ecio_department_histories.csv", row.names = FALSE, quote = TRUE)
+write.csv(policy_area_histories, "build/ecio_policy_area_histories.csv", row.names = FALSE, quote = TRUE)
+write.csv(classification_schemes, "build/ecio_classification_schemes.csv", row.names = FALSE, quote = TRUE)
+write.csv(codebook, "build/ecio_codebook.csv", row.names = FALSE, quote = TRUE)
+
+##################################################
+# server
+##################################################
+
+write.csv(commissions, "server/ecio_commissions.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(departments, "server/ecio_deprtments.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(departments_by_commission, "server/ecio_deparments_by_commission.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(commissioners, "server/ecio_commissioners.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(commissioners_by_commission, "server/ecio_commissioners_by_commission.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(policy_areas, "server/ecio_policy_areas.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(portfolio_allocations, "server/ecio_portfolio_allocations.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(department_allocations, "server/ecio_department_allocations.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(policy_area_allocations, "server/ecio_policy_area_allocations.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(department_histories, "server/ecio_department_histories.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(policy_area_histories, "server/ecio_policy_area_histories.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(classification_schemes, "server/ecio_classification_schemes.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(codebook, "server/ecio_codebook.csv", row.names = FALSE, quote = TRUE, na = "\\N")
 
 ###########################################################################
 # end R script
