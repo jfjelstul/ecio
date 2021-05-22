@@ -4,3 +4,5 @@
 documentation/
 data-raw/hand-coded/source/
 data-raw/codebook/source
+build/
+server/
