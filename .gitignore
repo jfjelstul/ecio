@@ -2,7 +2,7 @@
 .DS_Store
 .Rhistory
 documentation/
-data-raw/hand-coded/source/
+data-raw/source/
 data-raw/codebook/source
 build/
 server/
