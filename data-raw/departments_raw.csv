@@ -1,4 +1,4 @@
-key_id,commission,commission_id,year,department_type,department_type_id,department_name,current_department_name,department_code,number,is_policy,policy_area,source
+key_id,commission,commission_id,year,department_type,department_type_id,department,current_department,department_code,number,is_policy,policy_area,source
 1,Hallstein I,1,1958,Directorate-General,1,I: External Relations,Service for Foreign Policy Instruments,Not applicable,1,1,External relations,Annuaire de la Commission des Communauté Économique Européenne (1962)
 2,Hallstein I,1,1958,Directorate-General,1,II: Economic and Financial Affairs,Directorate-General for Economic and Financial Affairs,Not applicable,2,1,Economic policy,Annuaire de la Commission des Communauté Économique Européenne (1962)
 3,Hallstein I,1,1958,Directorate-General,1,III: Internal Market,"Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs",Not applicable,3,1,Internal market,Annuaire de la Commission des Communauté Économique Européenne (1962)

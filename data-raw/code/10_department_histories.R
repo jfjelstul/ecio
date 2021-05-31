@@ -17,14 +17,14 @@ load("data/departments_by_commission.RData")
 load("data/departments.RData")
 
 # drop departments that don't correspond to a current department
-departments_by_commission <- dplyr::filter(departments_by_commission, current_department_name != "None")
+departments_by_commission <- dplyr::filter(departments_by_commission, current_department != "None")
 
 # separate departments
-departments_by_commission <- tidyr::separate_rows(departments_by_commission, current_department_name, sep = "; ")
+departments_by_commission <- tidyr::separate_rows(departments_by_commission, current_department, sep = "; ")
 
 # collapse by current department
 department_histories <- departments_by_commission %>%
-  dplyr::group_by(department_name, current_department_name) %>%
+  dplyr::group_by(department, current_department) %>%
   dplyr::summarize(
     department_id = unique(department_id),
     department_type_id = unique(department_type_id),
@@ -41,14 +41,14 @@ department_histories <- departments_by_commission %>%
 # select variables
 departments <- dplyr::select(
   departments,
-  department_name, department_id, department_code,
+  department, department_id, department_code,
   department_type_id, department_type
 )
 
 # rename variables
 departments <- dplyr::rename(
   departments,
-  current_department_name = department_name,
+  current_department = department,
   current_department_id = department_id,
   current_department_code = department_code,
   current_department_type_id = department_type_id,
@@ -56,7 +56,7 @@ departments <- dplyr::rename(
 )
 
 # merge
-department_histories <- dplyr::left_join(department_histories, departments, by = "current_department_name")
+department_histories <- dplyr::left_join(department_histories, departments, by = "current_department")
 
 ##################################################
 # dates
@@ -98,9 +98,9 @@ department_histories$key_id <- 1:nrow(department_histories)
 department_histories <- dplyr::select(
   department_histories,
   key_id,
-  current_department_id, current_department_name, current_department_code,
+  current_department_id, current_department, current_department_code,
   current_department_type_id, current_department_type,
-  department_id, department_name, department_code,
+  department_id, department, department_code,
   department_type_id, department_type,
   commissions, count_commissions,
   start_date, start_year, start_month, start_day,

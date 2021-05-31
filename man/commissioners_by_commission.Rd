@@ -3,7 +3,7 @@
 \docType{data}
 \name{commissioners_by_commission}
 \alias{commissioners_by_commission}
-\title{Data on Commissioners (by Commission)}
+\title{Data on commissioners by commission}
 \format{
 A data frame with 34 variables:
 \describe{
@@ -65,12 +65,12 @@ if the Commissioner left office before the end of the Commission and
 \item{replaced}{Dummy. A dummy variable indicating whether, if the
 Commissioner left office before the end of the Commission, the Commission
 was replaced. Coded \code{1} if the Commissioner was replaced and \code{0}
-otherwise. Always coded \code{0} if \code{end_early} is coded \code{0}. }
+otherwise. Always coded \code{0} if \code{end_early} is coded \code{0}.}
 \item{not_replaced}{Dummy. A dummy variable indicating whether, if the
 Commissioner left office before the end of the Commission, the Commission
 was not replaced. Coded \code{1} if the Commissioner was not replaced and
 \code{0} otherwise. Always coded \code{0} if \code{end_early} is coded
-\code{0}. }
+\code{0}.}
 \item{start_late}{Dummy. A dummy variable indicating whether the
 Commissioner was appointed after the start of the Commission. Coded
 \code{1} if the Commissioner was appointed after the start of the

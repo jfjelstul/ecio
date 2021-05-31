@@ -5,7 +5,7 @@
 ################################################################################
 
 #' Data on policy area histories
-#'
+#' 
 #' This dataset includes data on the histories of the policy areas covered by
 #' the departments of the Commission (1958-2021). There is one observation per
 #' historical interval in which the mapping between a policy area and a
@@ -17,7 +17,7 @@
 #' the mapping between the policy area and departments over time. The dataset
 #' indicates the Commissions associated with each interval and the start and
 #' end dates of each interval.
-#'
+#' 
 #' @format A data frame with 18 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -28,7 +28,7 @@
 #' \code{policy_areas} dataset.}
 #' \item{department_id}{Numeric. An ID number that uniquely identifies each
 #' department. See the \code{departments} dataset.}
-#' \item{department_name}{String. The name of the department.}
+#' \item{department}{String. The name of the department.}
 #' \item{department_code}{String. The common abbreviation of the department.
 #' Coded \code{Not applicable} of there is not an abbreviation for the
 #' department. Coded \code{None} for all Commissions prior to the Prodi

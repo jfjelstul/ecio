@@ -5,7 +5,7 @@
 ################################################################################
 
 #' Data on department allocations
-#'
+#' 
 #' This dataset includes data on department allocations (1958-2021). There is
 #' one observation per department allocation per Commission (i.e., one
 #' observation per department per Commissioner per Commission). A new
@@ -18,7 +18,7 @@
 #' there will be multiple observations, one for each Commission. The dataset
 #' indicates the start and end dates of each department allocation and the
 #' policy areas that correspond to each department.
-#'
+#' 
 #' @format A data frame with 30 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -72,7 +72,7 @@
 #' cross Commissions.}
 #' \item{department_id}{Numeric. An ID number that uniquely identifies each
 #' department. See the \code{departments} dataset.}
-#' \item{department_name}{String. The name of the department.}
+#' \item{department}{String. The name of the department.}
 #' \item{department_code}{String. The common abbreviation of the department.
 #' Coded \code{Not applicable} of there is not an abbreviation for the
 #' department. Coded \code{None} for all Commissions prior to the Prodi

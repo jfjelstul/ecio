@@ -3,7 +3,7 @@
 \docType{data}
 \name{departments_by_commission}
 \alias{departments_by_commission}
-\title{Data on departments (by Commission)}
+\title{Data on departments by commission}
 \format{
 A data frame with 18 variables:
 \describe{
@@ -29,15 +29,15 @@ and \code{2} for \code{Service department}. See the variable
 \code{Directorate-General} or \code{Service department}.}
 \item{department_id}{Numeric. An ID number that uniquely identifies each
 department. See the \code{departments} dataset.}
-\item{department_name}{String. The name of the department.}
+\item{department}{String. The name of the department.}
 \item{department_code}{String. The common abbreviation of the department.
 Coded \code{Not applicable} of there is not an abbreviation for the
 department. Coded \code{None} for all Commissions prior to the Prodi
 Commission.}
 \item{policy_area}{String. The name of the policy area. See the
 \code{policy_areas} dataset.}
-\item{current_department_name}{String. The name of the current department.
-See the \code{departments} dataset.}
+\item{current_department}{String. The name of the current department. See
+the \code{departments} dataset.}
 }
 }
 \usage{

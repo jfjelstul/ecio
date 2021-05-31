@@ -58,7 +58,7 @@ not cross Commissions.}
 cross Commissions.}
 \item{department_id}{Numeric. An ID number that uniquely identifies each
 department. See the \code{departments} dataset.}
-\item{department_name}{String. The name of the department.}
+\item{department}{String. The name of the department.}
 \item{department_code}{String. The common abbreviation of the department.
 Coded \code{Not applicable} of there is not an abbreviation for the
 department. Coded \code{None} for all Commissions prior to the Prodi

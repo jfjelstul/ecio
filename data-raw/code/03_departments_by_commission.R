@@ -30,13 +30,13 @@ departments_by_commission <- dplyr::left_join(departments_raw, commissions, by =
 load("data/departments.RData")
 
 # select variables
-departments <- dplyr::select(departments, department_id, department_name)
+departments <- dplyr::select(departments, department_id, department)
 
 # merge in department ID
-departments_by_commission <- dplyr::left_join(departments_by_commission, departments, by = "department_name")
+departments_by_commission <- dplyr::left_join(departments_by_commission, departments, by = "department")
 
 # drop abolished departments
-departments_by_commission <- dplyr::filter(departments_by_commission, !stringr::str_detect(department_name, "ABOLISHED"))
+departments_by_commission <- dplyr::filter(departments_by_commission, !stringr::str_detect(department, "ABOLISHED"))
 
 ##################################################
 # organize
@@ -58,8 +58,8 @@ departments_by_commission <- dplyr::select(
   start_date, start_year, start_month, start_day,
   end_date, end_year, end_month, end_day,
   department_type_id, department_type,
-  department_id, department_name, department_code, policy_area,
-  current_department_name
+  department_id, department, department_code, policy_area,
+  current_department
 )
 
 # convert to a tibble

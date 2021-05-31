@@ -24,7 +24,7 @@ departments_by_commission <- tidyr::separate_rows(departments_by_commission, pol
 
 # collapse by policy area
 policy_area_histories <- departments_by_commission %>%
-  dplyr::group_by(department_name, policy_area) %>%
+  dplyr::group_by(department, policy_area) %>%
   dplyr::summarize(
     department_id = unique(department_id),
     department_type_id = unique(department_type_id),
@@ -88,7 +88,7 @@ policy_area_histories <- dplyr::select(
   policy_area_histories,
   key_id,
   policy_area_id, policy_area,
-  department_id, department_name, department_code,
+  department_id, department, department_code,
   department_type_id, department_type,
   commissions, count_commissions,
   start_date, start_year, start_month, start_day,

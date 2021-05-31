@@ -5,7 +5,7 @@
 ################################################################################
 
 #' Data on portfolio allocations
-#'
+#' 
 #' This dataset includes data on portfolio allocations (1958-2021). There is
 #' one observation per portfolio allocation per Commission (i.e., one
 #' observation per portfolio per Commissioner per Commission). A new
@@ -19,7 +19,7 @@
 #' indicates the start and end dates of each portfolio allocation, the
 #' departments that each Commissioner oversees, and the policy areas that
 #' correspond to those departments.
-#'
+#' 
 #' @format A data frame with 28 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each

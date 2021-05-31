@@ -3,7 +3,7 @@
 \docType{data}
 \name{commissions}
 \alias{commissions}
-\title{Data on Commissions}
+\title{Data on commissions}
 \format{
 A data frame with 25 variables:
 \describe{

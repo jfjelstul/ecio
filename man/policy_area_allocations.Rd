@@ -58,8 +58,8 @@ not cross Commissions.}
 cross Commissions.}
 \item{policy_area_id}{Numeric. An ID number that uniquely identifies each
 policy area. See the \code{policy_areas} dataset.}
-\item{policy_area_id}{Numeric. An ID number that uniquely identifies each
-policy area. See the \code{policy_areas} dataset.}
+\item{policy_area}{Numeric. The name of the policy area. See the
+\code{policy_areas} dataset.}
 }
 }
 \usage{

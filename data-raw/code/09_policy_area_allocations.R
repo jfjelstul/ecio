@@ -54,7 +54,6 @@ policy_area_allocations <- policy_area_allocations %>%
     national_party_name_english = unique(national_party_name_english),
     political_group_code = unique(political_group_code),
     political_group_name = unique(political_group_name),
-    department_name = stringr::str_c(unique(department_name), collapse = "; "),
     start_date = min(start_date),
     end_date = max(end_date),
     .groups = "drop_last"

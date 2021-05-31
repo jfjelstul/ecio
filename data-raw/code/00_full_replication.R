@@ -1,7 +1,7 @@
-###########################################################################
+################################################################################
 # Joshua C. Fjelstul, Ph.D.
 # ecio R package
-###########################################################################
+################################################################################
 
 ##################################################
 # run replication scripts
@@ -111,19 +111,35 @@ rm(list = ls())
 ##################################################
 
 # read in data
-codebook <- read.csv("data-raw/codebook/codebook.csv", stringsAsFactors = FALSE)
+variables <- read.csv("data-raw/documentation/ecio_variables.csv", stringsAsFactors = FALSE)
 
 # convert to a tibble
-codebook <- dplyr::as_tibble(codebook)
+variables <- dplyr::as_tibble(variables)
 
 # save
-save(codebook, file = "data/codebook.RData")
+save(variables, file = "data/variables.RData")
 
+##################################################
+# datasets
+##################################################
+
+# read in data
+datasets <- read.csv("data-raw/documentation/ecio_datasets.csv", stringsAsFactors = FALSE)
+
+# convert to a tibble
+datasets <- dplyr::as_tibble(datasets)
+
+# save
+save(datasets, file = "data/datasets.RData")
+
+##################################################
 # documentation
+##################################################
+
 codebookr::document_data(
   path = "R/",
-  codebook_file = "data-raw/codebook/codebook.csv",
-  markdown_file = "data-raw/codebook/descriptions.txt",
+  variables_file = "data-raw/documentation/ecio_variables.csv",
+  datasets_file = "data-raw/documentation/ecio_datasets.csv",
   author = "Joshua C. Fjelstul, Ph.D.",
   package = "ecio"
 )
@@ -143,8 +159,8 @@ load("data/department_allocations.RData")
 load("data/policy_area_allocations.RData")
 load("data/policy_area_histories.RData")
 load("data/department_histories.RData")
-load("data/classification_schemes.RData")
-load("data/codebook.RData")
+load("data/variables.RData")
+load("data/datasets.RData")
 
 ##################################################
 # check class
@@ -161,8 +177,8 @@ class(department_allocations)
 class(policy_area_allocations)
 class(department_histories)
 class(policy_area_histories)
-class(classification_schemes)
-class(codebook)
+class(variables)
+class(datasets)
 
 ##################################################
 # check for missing data
@@ -179,7 +195,7 @@ table(is.na(department_allocations))
 table(is.na(policy_area_allocations))
 table(is.na(policy_area_histories))
 table(is.na(department_histories))
-table(is.na(classification_schemes))
+table(is.na(datasets))
 table(is.na(codebook))
 
 ##################################################
@@ -187,8 +203,8 @@ table(is.na(codebook))
 ##################################################
 
 write.csv(commissions, "build/ecio_commissions.csv", row.names = FALSE, quote = TRUE)
-write.csv(departments, "build/ecio_deprtments.csv", row.names = FALSE, quote = TRUE)
-write.csv(departments_by_commission, "build/ecio_deparments_by_commission.csv", row.names = FALSE, quote = TRUE)
+write.csv(departments, "build/ecio_departments.csv", row.names = FALSE, quote = TRUE)
+write.csv(departments_by_commission, "build/ecio_departments_by_commission.csv", row.names = FALSE, quote = TRUE)
 write.csv(commissioners, "build/ecio_commissioners.csv", row.names = FALSE, quote = TRUE)
 write.csv(commissioners_by_commission, "build/ecio_commissioners_by_commission.csv", row.names = FALSE, quote = TRUE)
 write.csv(policy_areas, "build/ecio_policy_areas.csv", row.names = FALSE, quote = TRUE)
@@ -197,27 +213,9 @@ write.csv(department_allocations, "build/ecio_department_allocations.csv", row.n
 write.csv(policy_area_allocations, "build/ecio_policy_area_allocations.csv", row.names = FALSE, quote = TRUE)
 write.csv(department_histories, "build/ecio_department_histories.csv", row.names = FALSE, quote = TRUE)
 write.csv(policy_area_histories, "build/ecio_policy_area_histories.csv", row.names = FALSE, quote = TRUE)
-write.csv(classification_schemes, "build/ecio_classification_schemes.csv", row.names = FALSE, quote = TRUE)
-write.csv(codebook, "build/ecio_codebook.csv", row.names = FALSE, quote = TRUE)
+write.csv(variables, "build/ecio_variables.csv", row.names = FALSE, quote = TRUE)
+write.csv(datasets, "build/ecio_datasets.csv", row.names = FALSE, quote = TRUE)
 
-##################################################
-# server
-##################################################
-
-write.csv(commissions, "server/ecio_commissions.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(departments, "server/ecio_deprtments.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(departments_by_commission, "server/ecio_deparments_by_commission.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(commissioners, "server/ecio_commissioners.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(commissioners_by_commission, "server/ecio_commissioners_by_commission.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(policy_areas, "server/ecio_policy_areas.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(portfolio_allocations, "server/ecio_portfolio_allocations.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(department_allocations, "server/ecio_department_allocations.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(policy_area_allocations, "server/ecio_policy_area_allocations.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(department_histories, "server/ecio_department_histories.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(policy_area_histories, "server/ecio_policy_area_histories.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(classification_schemes, "server/ecio_classification_schemes.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-write.csv(codebook, "server/ecio_codebook.csv", row.names = FALSE, quote = TRUE, na = "\\N")
-
-###########################################################################
+################################################################################
 # end R script
-###########################################################################
+################################################################################

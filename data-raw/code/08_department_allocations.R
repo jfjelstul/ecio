@@ -20,29 +20,29 @@ load("data/departments.RData")
 department_allocations <- tidyr::separate_rows(portfolio_allocations, departments, sep = "; ")
 
 # rename variable
-department_allocations <- dplyr::rename(department_allocations, department_name = departments)
+department_allocations <- dplyr::rename(department_allocations, department = departments)
 
 # select variables
 departments <- dplyr::select(
   departments,
-  department_id, department_name,
+  department_id, department,
   department_code, policy_area
 )
 
 # merge
-department_allocations <- dplyr::left_join(department_allocations, departments, by = "department_name")
+department_allocations <- dplyr::left_join(department_allocations, departments, by = "department")
 
 ##################################################
 # collapse
 ##################################################
 
 # drop portfolios without a department
-department_allocations <- dplyr::filter(department_allocations, department_name != "None")
+department_allocations <- dplyr::filter(department_allocations, department != "None")
 
 # collapse by commission, commissioner, and department
 # this handles cases where there's a portfolio change but the departments don't change (e.g., sharing)
 department_allocations <- department_allocations %>%
-  dplyr::group_by(commission, commission_id, full_name, department_name) %>%
+  dplyr::group_by(commission, commission_id, full_name, department) %>%
   dplyr::summarize(
     commissioner_id = unique(commissioner_id),
     full_name_latin = unique(full_name_latin),
@@ -117,7 +117,7 @@ department_allocations <- dplyr::select(
   political_group_code, political_group_name,
   start_date, start_year, start_month, start_day,
   end_date, end_year, end_month, end_day,
-  department_id, department_name, department_code, policy_area
+  department_id, department, department_code, policy_area
 )
 
 # write data
