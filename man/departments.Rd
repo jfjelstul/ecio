@@ -7,33 +7,33 @@
 \format{
 A data frame with 11 variables:
 \describe{
-\item{key_id}{Numeric. An ID number that uniquely identifies each
+\item{key_id}{\code{numeric}. An ID number that uniquely identifies each
 observation. Indicates the default sort order for the dataset.}
-\item{department_id}{Numeric. An ID number that uniquely identifies each
-department.}
-\item{department}{String. The name of the department.}
-\item{commissions}{String. A list of the Commissions in which the
+\item{department_id}{\code{numeric}. An ID number that uniquely identifies
+each department.}
+\item{department}{\code{string}. The name of the department.}
+\item{commissions}{\code{string}. A list of the Commissions in which the
 department appeared, separated by a comma. }
-\item{count_commissions}{Numeric. The number of Commissions in which the
-department appeared.}
-\item{is_current_department}{Dummy. A dummy variable indicating whether the
-department is a current department under the von der Leyen Commission.
-Coded \code{1} if the department is a current department and \code{0}
-otherwise.}
-\item{department_type_id}{Numeric. An ID number that uniquely identifies
-the type of the department. Coded \code{1} for \code{Directorate-General}
-and \code{2} for \code{Service department}. See the variable
-\code{department_type}.}
-\item{department_type}{String. The type of the department. Either
+\item{count_commissions}{\code{numeric}. The number of Commissions in which
+the department appeared.}
+\item{is_current_department}{\code{dummy}. A dummy variable indicating
+whether the department is a current department under the von der Leyen
+Commission. Coded \code{1} if the department is a current department and
+\code{0} otherwise.}
+\item{department_type_id}{\code{numeric}. An ID number that uniquely
+identifies the type of the department. Coded \code{1} for
+\code{Directorate-General} and \code{2} for \code{Service department}. See
+the variable \code{department_type}.}
+\item{department_type}{\code{string}. The type of the department. Either
 \code{Directorate-General} or \code{Service department}.}
-\item{department_code}{String. The common abbreviation of the department.
-Coded \code{Not applicable} of there is not an abbreviation for the
-department. Coded \code{None} for all Commissions prior to the Prodi
+\item{department_code}{\code{string}. The common abbreviation of the
+department. Coded \code{Not applicable} of there is not an abbreviation for
+the department. Coded \code{None} for all Commissions prior to the Prodi
 Commission.}
-\item{policy_area}{String. The name of the policy area. See the
+\item{policy_area}{\code{string}. The name of the policy area. See the
 \code{policy_areas} dataset.}
-\item{current_department}{String. The name of the current department. See
-the \code{departments} dataset.}
+\item{current_department}{\code{string}. The name of the current
+department. See the \code{departments} dataset.}
 }
 }
 \usage{

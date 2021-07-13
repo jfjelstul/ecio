@@ -16,18 +16,18 @@
 #' 
 #' @format A data frame with 6 variables:
 #' \describe{
-#' \item{key_id}{Numeric. An ID number that uniquely identifies each
+#' \item{key_id}{\code{numeric}. An ID number that uniquely identifies each
 #' observation. Indicates the default sort order for the dataset.}
-#' \item{policy_area_id}{Numeric. An ID number that uniquely identifies each
-#' policy area. See the \code{policy_areas} dataset.}
-#' \item{policy_area}{String. The name of the policy area. See the
+#' \item{policy_area_id}{\code{numeric}. An ID number that uniquely identifies
+#' each policy area. See the \code{policy_areas} dataset.}
+#' \item{policy_area}{\code{string}. The name of the policy area. See the
 #' \code{policy_areas} dataset.}
-#' \item{case_law_old}{String. A list of the codes from the pre-Lisbon version
-#' of EUR-Lex's Case Law Directory that apply to the policy area.}
-#' \item{case_law_new}{String. A list of the codes from the post-Lisbon
+#' \item{case_law_old}{\code{string}. A list of the codes from the pre-Lisbon
 #' version of EUR-Lex's Case Law Directory that apply to the policy area.}
-#' \item{legislation}{String. A list of the codes from EUR-Lex's Directory of
-#' Legal Acts that apply to the policy area.}
+#' \item{case_law_new}{\code{string}. A list of the codes from the post-Lisbon
+#' version of EUR-Lex's Case Law Directory that apply to the policy area.}
+#' \item{legislation}{\code{string}. A list of the codes from EUR-Lex's
+#' Directory of Legal Acts that apply to the policy area.}
 #' }
 "policy_areas"
 

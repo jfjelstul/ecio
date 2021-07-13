@@ -7,87 +7,89 @@
 \format{
 A data frame with 34 variables:
 \describe{
-\item{key_id}{Numeric. An ID number that uniquely identifies each
+\item{key_id}{\code{numeric}. An ID number that uniquely identifies each
 observation. Indicates the default sort order for the dataset.}
-\item{commission_id}{Numeric. The ID number that uniquely identifies each
-Commission. See the \code{commissions} dataset.}
-\item{commission}{String. The name of the Commission. See the
+\item{commission_id}{\code{numeric}. The ID number that uniquely identifies
+each Commission. See the \code{commissions} dataset.}
+\item{commission}{\code{string}. The name of the Commission. See the
 \code{commissions} dataset.}
-\item{commissioner_id}{Numeric. An ID number that uniquely identifies each
-individual who was served as a Commissioner. See the \code{commissioners}
-dataset.}
-\item{full_name}{String. The full name of the Commissioner.}
-\item{full_name_latin}{String. The full name of the Commissioner using only
-basic Latin characters.}
-\item{last_name}{String. The last name of the Commissioner.}
-\item{last_name_latin}{String. The last name of the Commissioner using only
-basic Latin characters.}
-\item{first_name}{String. The first name of the Commissioner.}
-\item{first_name_latin}{String. The first name of the Commissioner using
-only basic Latin characters.}
-\item{member_state_id}{Numeric. An ID number that uniquely identifies each
-member state.}
-\item{member_state}{String. The name of the Commissioner's member state.}
-\item{member_state_code}{String. The two-letter code assigned by the
+\item{commissioner_id}{\code{numeric}. An ID number that uniquely
+identifies each individual who was served as a Commissioner. See the
+\code{commissioners} dataset.}
+\item{full_name}{\code{string}. The full name of the Commissioner.}
+\item{full_name_latin}{\code{string}. The full name of the Commissioner
+using only basic Latin characters.}
+\item{last_name}{\code{string}. The last name of the Commissioner.}
+\item{last_name_latin}{\code{string}. The last name of the Commissioner
+using only basic Latin characters.}
+\item{first_name}{\code{string}. The first name of the Commissioner.}
+\item{first_name_latin}{\code{string}. The first name of the Commissioner
+using only basic Latin characters.}
+\item{member_state_id}{\code{numeric}. An ID number that uniquely
+identifies each member state.}
+\item{member_state}{\code{string}. The name of the Commissioner's member
+state.}
+\item{member_state_code}{\code{string}. The two-letter code assigned by the
 Commission to the Commissioner's member state.}
-\item{national_party_code}{String. The common abbreviation of the
+\item{national_party_code}{\code{string}. The common abbreviation of the
 Commissioner's national political party.}
-\item{national_party_name}{String. The name of the Commissioner's national
-political party in the Commissioner's member state's official language.}
-\item{national_party_name_english}{String. The name of the Commissioner's
-national political party in English.}
-\item{political_group_code}{String. The common abbreviation of the
+\item{national_party_name}{\code{string}. The name of the Commissioner's
+national political party in the Commissioner's member state's official
+language.}
+\item{national_party_name_english}{\code{string}. The name of the
+Commissioner's national political party in English.}
+\item{political_group_code}{\code{string}. The common abbreviation of the
 political group.}
-\item{political_group_name}{String. The name of the Commissioner's
+\item{political_group_name}{\code{string}. The name of the Commissioner's
 political group.}
-\item{start_date}{Date. The start date of the Commission within the
+\item{start_date}{\code{date}. The start date of the Commission within the
 indicated Commission. }
-\item{start_year}{Numeric. The start year of the Commission within the
+\item{start_year}{\code{numeric}. The start year of the Commission within
+the indicated Commission. }
+\item{start_month}{\code{numeric}. The start month of the Commission within
+the indicated Commission. }
+\item{start_day}{\code{numeric}. The start day of the Commission within the
 indicated Commission. }
-\item{start_month}{Numeric. The start month of the Commission within the
+\item{end_date}{\code{date}. The end date of the Commission within the
 indicated Commission. }
-\item{start_day}{Numeric. The start day of the Commission within the
+\item{end_year}{\code{numeric}. The start year of the Commission within the
 indicated Commission. }
-\item{end_date}{Date. The end date of the Commission within the indicated
-Commission. }
-\item{end_year}{Numeric. The start year of the Commission within the
+\item{end_month}{\code{numeric}. The start month of the Commission within
+the indicated Commission. }
+\item{end_day}{\code{numeric}. The end day of the Commission within the
 indicated Commission. }
-\item{end_month}{Numeric. The start month of the Commission within the
-indicated Commission. }
-\item{end_day}{Numeric. The end day of the Commission within the indicated
-Commission. }
-\item{full_term}{Dummy. A dummy variable indicating whether the
+\item{full_term}{\code{dummy}. A dummy variable indicating whether the
 Commissioner served for the entire Commission.}
-\item{end_early}{Dummy. A dummy variable indicating whether the
+\item{end_early}{\code{dummy}. A dummy variable indicating whether the
 Commissioner left office before the end of the Commission. Coded \code{1}
 if the Commissioner left office before the end of the Commission and
 \code{0} otherwise.}
-\item{replaced}{Dummy. A dummy variable indicating whether, if the
+\item{replaced}{\code{dummy}. A dummy variable indicating whether, if the
 Commissioner left office before the end of the Commission, the Commission
 was replaced. Coded \code{1} if the Commissioner was replaced and \code{0}
 otherwise. Always coded \code{0} if \code{end_early} is coded \code{0}.}
-\item{not_replaced}{Dummy. A dummy variable indicating whether, if the
-Commissioner left office before the end of the Commission, the Commission
-was not replaced. Coded \code{1} if the Commissioner was not replaced and
-\code{0} otherwise. Always coded \code{0} if \code{end_early} is coded
-\code{0}.}
-\item{start_late}{Dummy. A dummy variable indicating whether the
+\item{not_replaced}{\code{dummy}. A dummy variable indicating whether, if
+the Commissioner left office before the end of the Commission, the
+Commission was not replaced. Coded \code{1} if the Commissioner was not
+replaced and \code{0} otherwise. Always coded \code{0} if \code{end_early}
+is coded \code{0}.}
+\item{start_late}{\code{dummy}. A dummy variable indicating whether the
 Commissioner was appointed after the start of the Commission. Coded
 \code{1} if the Commissioner was appointed after the start of the
 Commission and \code{0} otherwise.}
-\item{replacement}{Dummy. A dummy variable indicating whether, if the
-Commissioner was appointed after the start of the Commission, the
+\item{replacement}{\code{dummy}. A dummy variable indicating whether, if
+the Commissioner was appointed after the start of the Commission, the
 Commission was appointed as a replacement for another Commissioner who left
 office early. Coded \code{1} of the Commissioner was a replacement and
 \code{0} otherwise. Always coded \code{0} if \code{start_late} is coded
 \code{0}.}
-\item{enlargement}{Dummy. A dummy variable indicating whether, if the
-Commissioner was appointed after the start of the Commission, the
+\item{enlargement}{\code{dummy}. A dummy variable indicating whether, if
+the Commissioner was appointed after the start of the Commission, the
 Commission was appointed because of an enlargement. Coded \code{1} of the
 Commissioner was appointed because of an enlargement and \code{0}
 otherwise. Always coded \code{0} if \code{start_late} is coded \code{0}.}
-\item{portfolio_change}{Dummy. A dummy variable indicating whether the
-Commissioner's portfolio changed during the indicated Commission.}
+\item{portfolio_change}{\code{dummy}. A dummy variable indicating whether
+the Commissioner's portfolio changed during the indicated Commission.}
 }
 }
 \usage{

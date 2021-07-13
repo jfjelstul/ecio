@@ -14,53 +14,55 @@
 #' 
 #' @format A data frame with 26 variables:
 #' \describe{
-#' \item{key_id}{Numeric. An ID number that uniquely identifies each
+#' \item{key_id}{\code{numeric}. An ID number that uniquely identifies each
 #' observation. Indicates the default sort order for the dataset.}
-#' \item{commissioner_id}{Numeric. An ID number that uniquely identifies each
-#' individual who was served as a Commissioner.}
-#' \item{full_name}{String. The full name of the Commissioner.}
-#' \item{full_name_latin}{String. The full name of the Commissioner using only
-#' basic Latin characters.}
-#' \item{last_name}{String. The last name of the Commissioner.}
-#' \item{last_name_latin}{String. The last name of the Commissioner using only
-#' basic Latin characters.}
-#' \item{first_name}{String. The first name of the Commissioner.}
-#' \item{first_name_latin}{String. The first name of the Commissioner using
-#' only basic Latin characters.}
-#' \item{member_state_id}{Numeric. An ID number that uniquely identifies each
-#' member state.}
-#' \item{member_state}{String. The name of the Commissioner's member state.}
-#' \item{member_state_code}{String. The two-letter code assigned by the
+#' \item{commissioner_id}{\code{numeric}. An ID number that uniquely
+#' identifies each individual who was served as a Commissioner.}
+#' \item{full_name}{\code{string}. The full name of the Commissioner.}
+#' \item{full_name_latin}{\code{string}. The full name of the Commissioner
+#' using only basic Latin characters.}
+#' \item{last_name}{\code{string}. The last name of the Commissioner.}
+#' \item{last_name_latin}{\code{string}. The last name of the Commissioner
+#' using only basic Latin characters.}
+#' \item{first_name}{\code{string}. The first name of the Commissioner.}
+#' \item{first_name_latin}{\code{string}. The first name of the Commissioner
+#' using only basic Latin characters.}
+#' \item{member_state_id}{\code{numeric}. An ID number that uniquely
+#' identifies each member state.}
+#' \item{member_state}{\code{string}. The name of the Commissioner's member
+#' state.}
+#' \item{member_state_code}{\code{string}. The two-letter code assigned by the
 #' Commission to the Commissioner's member state.}
-#' \item{national_party_code}{String. The common abbreviation of the
+#' \item{national_party_code}{\code{string}. The common abbreviation of the
 #' Commissioner's national political party.}
-#' \item{national_party_name}{String. The name of the Commissioner's national
-#' political party in the Commissioner's member state's official language.}
-#' \item{national_party_name_english}{String. The name of the Commissioner's
-#' national political party in English.}
-#' \item{political_group_code}{String. The common abbreviation of the
+#' \item{national_party_name}{\code{string}. The name of the Commissioner's
+#' national political party in the Commissioner's member state's official
+#' language.}
+#' \item{national_party_name_english}{\code{string}. The name of the
+#' Commissioner's national political party in English.}
+#' \item{political_group_code}{\code{string}. The common abbreviation of the
 #' political group.}
-#' \item{political_group_name}{String. The name of the Commissioner's
+#' \item{political_group_name}{\code{string}. The name of the Commissioner's
 #' political group.}
-#' \item{commissions}{String. A list of the Commissions in which the
+#' \item{commissions}{\code{string}. A list of the Commissions in which the
 #' Commissioner served, separated by a comma. }
-#' \item{count_commissions}{Numeric. The number of Commissions in which the
-#' Commissioner served.}
-#' \item{start_date}{Date. The start date of the Commissioner across all
+#' \item{count_commissions}{\code{numeric}. The number of Commissions in which
+#' the Commissioner served.}
+#' \item{start_date}{\code{date}. The start date of the Commissioner across
+#' all Commissions in which the Commissioner served.}
+#' \item{start_year}{\code{numeric}. The start year of the Commissioner across
+#' all Commissions in which the Commissioner served.}
+#' \item{start_month}{\code{numeric}. The start month of the Commissioner
+#' across all Commissions in which the Commissioner served.}
+#' \item{start_day}{\code{numeric}. The start day of the Commissioner across
+#' all Commissions in which the Commissioner served.}
+#' \item{end_date}{\code{date}. The end date of the Commissioner across all
 #' Commissions in which the Commissioner served.}
-#' \item{start_year}{Numeric. The start year of the Commissioner across all
-#' Commissions in which the Commissioner served.}
-#' \item{start_month}{Numeric. The start month of the Commissioner across all
-#' Commissions in which the Commissioner served.}
-#' \item{start_day}{Numeric. The start day of the Commissioner across all
-#' Commissions in which the Commissioner served.}
-#' \item{end_date}{Date. The end date of the Commissioner across all
-#' Commissions in which the Commissioner served.}
-#' \item{end_year}{Numeric. The start year of the Commissioner across all
-#' Commissions in which the Commissioner served.}
-#' \item{end_month}{Numeric. The start month of the Commissioner across all
-#' Commissions in which the Commissioner served.}
-#' \item{end_day}{Numeric. The end day of the Commissioner across all
+#' \item{end_year}{\code{numeric}. The start year of the Commissioner across
+#' all Commissions in which the Commissioner served.}
+#' \item{end_month}{\code{numeric}. The start month of the Commissioner across
+#' all Commissions in which the Commissioner served.}
+#' \item{end_day}{\code{numeric}. The end day of the Commissioner across all
 #' Commissions in which the Commissioner served.}
 #' }
 "commissioners"

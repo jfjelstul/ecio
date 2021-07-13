@@ -1,0 +1,13 @@
+\babel@toc {english}{}
+\thispagestyle {empty}
+\contentsline {section}{commissions}{2}{section*.1}%
+\contentsline {section}{departments}{5}{section*.2}%
+\contentsline {section}{departments\_by\_commission}{7}{section*.3}%
+\contentsline {section}{commissioners}{9}{section*.4}%
+\contentsline {section}{commissioners\_by\_commission}{12}{section*.5}%
+\contentsline {section}{policy\_areas}{16}{section*.6}%
+\contentsline {section}{portfolio\_allocations}{18}{section*.7}%
+\contentsline {section}{department\_allocations}{21}{section*.8}%
+\contentsline {section}{policy\_area\_allocations}{24}{section*.9}%
+\contentsline {section}{department\_histories}{27}{section*.10}%
+\contentsline {section}{policy\_area\_histories}{30}{section*.11}%

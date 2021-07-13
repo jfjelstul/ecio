@@ -7,45 +7,45 @@
 \format{
 A data frame with 18 variables:
 \describe{
-\item{key_id}{Numeric. An ID number that uniquely identifies each
+\item{key_id}{\code{numeric}. An ID number that uniquely identifies each
 observation. Indicates the default sort order for the dataset.}
-\item{policy_area_id}{Numeric. An ID number that uniquely identifies each
-policy area. See the \code{policy_areas} dataset.}
-\item{policy_area}{String. The name of the policy area. See the
+\item{policy_area_id}{\code{numeric}. An ID number that uniquely identifies
+each policy area. See the \code{policy_areas} dataset.}
+\item{policy_area}{\code{string}. The name of the policy area. See the
 \code{policy_areas} dataset.}
-\item{department_id}{Numeric. An ID number that uniquely identifies each
-department. See the \code{departments} dataset.}
-\item{department}{String. The name of the department.}
-\item{department_code}{String. The common abbreviation of the department.
-Coded \code{Not applicable} of there is not an abbreviation for the
-department. Coded \code{None} for all Commissions prior to the Prodi
+\item{department_id}{\code{numeric}. An ID number that uniquely identifies
+each department. See the \code{departments} dataset.}
+\item{department}{\code{string}. The name of the department.}
+\item{department_code}{\code{string}. The common abbreviation of the
+department. Coded \code{Not applicable} of there is not an abbreviation for
+the department. Coded \code{None} for all Commissions prior to the Prodi
 Commission.}
-\item{department_type_id}{Numeric. An ID number that uniquely identifies
-the type of the department. Coded \code{1} for \code{Directorate-General}
-and \code{2} for \code{Service department}. See the variable
-\code{department_type}.}
-\item{department_type}{String. The type of the department. Either
+\item{department_type_id}{\code{numeric}. An ID number that uniquely
+identifies the type of the department. Coded \code{1} for
+\code{Directorate-General} and \code{2} for \code{Service department}. See
+the variable \code{department_type}.}
+\item{department_type}{\code{string}. The type of the department. Either
 \code{Directorate-General} or \code{Service department}.}
-\item{commissions}{String. A list of the Commissions in which the policy
-area appeared, separated by a comma.}
-\item{count_commissions}{Numeric. The number of Commissions in which the
-policy area appeared.}
-\item{start_date}{Date. The start date of the historical interval.
+\item{commissions}{\code{string}. A list of the Commissions in which the
+policy area appeared, separated by a comma.}
+\item{count_commissions}{\code{numeric}. The number of Commissions in which
+the policy area appeared.}
+\item{start_date}{\code{date}. The start date of the historical interval.
 Historical intervals can cross Commissions.}
-\item{start_year}{Numeric. The start year of the historical interval.
+\item{start_year}{\code{numeric}. The start year of the historical
+interval. Historical intervals can cross Commissions.}
+\item{start_month}{\code{numeric}. The start month of the historical
+interval. Historical intervals can cross Commissions.}
+\item{start_day}{\code{numeric}. The start day of the historical interval.
 Historical intervals can cross Commissions.}
-\item{start_month}{Numeric. The start month of the historical interval.
+\item{end_date}{\code{date}. The end date of the historical interval.
 Historical intervals can cross Commissions.}
-\item{start_day}{Numeric. The start day of the historical interval.
+\item{end_year}{\code{numeric}. The start year of the historical interval.
 Historical intervals can cross Commissions.}
-\item{end_date}{Date. The end date of the historical interval. Historical
-intervals can cross Commissions.}
-\item{end_year}{Numeric. The start year of the historical interval.
+\item{end_month}{\code{numeric}. The start month of the historical
+interval. Historical intervals can cross Commissions.}
+\item{end_day}{\code{numeric}. The end day of the historical interval.
 Historical intervals can cross Commissions.}
-\item{end_month}{Numeric. The start month of the historical interval.
-Historical intervals can cross Commissions.}
-\item{end_day}{Numeric. The end day of the historical interval. Historical
-intervals can cross Commissions.}
 }
 }
 \usage{

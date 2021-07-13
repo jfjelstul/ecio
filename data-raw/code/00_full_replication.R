@@ -136,12 +136,39 @@ save(datasets, file = "data/datasets.RData")
 # documentation
 ##################################################
 
+# documentation
+load("data/variables.RData")
+load("data/datasets.RData")
+
+# document data
 codebookr::document_data(
-  path = "R/",
-  variables_file = "data-raw/documentation/ecio_variables.csv",
-  datasets_file = "data-raw/documentation/ecio_datasets.csv",
+  file_path = "R/",
+  variables_input = variables,
+  datasets_input = datasets,
+  include_variable_type = TRUE,
   author = "Joshua C. Fjelstul, Ph.D.",
   package = "ecio"
+)
+
+##################################################
+# codebook
+##################################################
+
+# create a codebook
+codebookr::create_codebook(
+  file_path = "codebook/ecio_codebook.tex",
+  datasets_input = datasets,
+  variables_input = variables,
+  title_text = "The European Commission Internal Organization \\\\ (ECIO) Database",
+  version_text = "1.0",
+  footer_text = "The ECIO Database Codebook \\hspace{5pt} | \\hspace{5pt} Joshua C. Fjelstul, Ph.D.",
+  author_names = "Joshua C. Fjelstul, Ph.D.",
+  theme_color = "#4D9FEB",
+  heading_font_size = 24,
+  subheading_font_size = 10,
+  title_font_size = 16,
+  table_of_contents = TRUE,
+  include_variable_type = TRUE
 )
 
 ##################################################
